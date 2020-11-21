@@ -1,0 +1,9 @@
+BABECAGEi2wtlc3UbtZtV6rxUTTDGbw0Yb1tqFxLiqsHIRQAqfk=
+GearSet	HeroLevel	FullSetBoost
+0	50	AllDamageX2
+1	50	TapDamageX2
+2	150	CriticalTapDamageX1.005
+3	150	CriticalTapChanceX1.05
+4	250	MaterialDropX2
+5	350	BossCoinDropX5
+6	450	MaterialDropX2

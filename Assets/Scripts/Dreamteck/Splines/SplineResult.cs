@@ -1,0 +1,132 @@
+using System;
+using UnityEngine;
+
+namespace Dreamteck.Splines
+{
+	[Serializable]
+	public class SplineResult
+	{
+		public Vector3 position = Vector3.zero;
+
+		public Vector3 normal = Vector3.up;
+
+		public Vector3 direction = Vector3.forward;
+
+		public Color color = Color.white;
+
+		public float size = 1f;
+
+		public double percent;
+
+		public Quaternion rotation
+		{
+			get
+			{
+				if (normal == direction)
+				{
+					if (normal == Vector3.up)
+					{
+						return Quaternion.LookRotation(Vector3.up, Vector3.back);
+					}
+					return Quaternion.LookRotation(direction, Vector3.up);
+				}
+				return Quaternion.LookRotation(direction, normal);
+			}
+		}
+
+		public Vector3 right
+		{
+			get
+			{
+				if (normal == direction)
+				{
+					if (normal == Vector3.up)
+					{
+						return Vector3.right;
+					}
+					return Vector3.Cross(Vector3.up, direction).normalized;
+				}
+				return Vector3.Cross(normal, direction).normalized;
+			}
+		}
+
+		public SplineResult()
+		{
+		}
+
+		public SplineResult(Vector3 p, Vector3 n, Vector3 d, Color c, float s, double t)
+		{
+			position = p;
+			normal = n;
+			direction = d;
+			color = c;
+			size = s;
+			percent = t;
+		}
+
+		public SplineResult(SplineResult input)
+		{
+			position = input.position;
+			normal = input.normal;
+			direction = input.direction;
+			color = input.color;
+			size = input.size;
+			percent = input.percent;
+		}
+
+		public static SplineResult Lerp(SplineResult a, SplineResult b, float t)
+		{
+			SplineResult splineResult = new SplineResult();
+			Lerp(a, b, t, splineResult);
+			return splineResult;
+		}
+
+		public static SplineResult Lerp(SplineResult a, SplineResult b, double t)
+		{
+			SplineResult splineResult = new SplineResult();
+			Lerp(a, b, t, splineResult);
+			return splineResult;
+		}
+
+		public static void Lerp(SplineResult a, SplineResult b, double t, SplineResult target)
+		{
+			float t2 = (float)t;
+			target.position = DMath.LerpVector3(a.position, b.position, t);
+			target.direction = Vector3.Slerp(a.direction, b.direction, t2);
+			target.normal = Vector3.Slerp(a.normal, b.normal, t2);
+			target.color = Color.Lerp(a.color, b.color, t2);
+			target.size = Mathf.Lerp(a.size, b.size, t2);
+			target.percent = DMath.Lerp(a.percent, b.percent, t);
+		}
+
+		public static void Lerp(SplineResult a, SplineResult b, float t, SplineResult target)
+		{
+			target.position = DMath.LerpVector3(a.position, b.position, t);
+			target.direction = Vector3.Slerp(a.direction, b.direction, t);
+			target.normal = Vector3.Slerp(a.normal, b.normal, t);
+			target.color = Color.Lerp(a.color, b.color, t);
+			target.size = Mathf.Lerp(a.size, b.size, t);
+			target.percent = DMath.Lerp(a.percent, b.percent, t);
+		}
+
+		public void Lerp(SplineResult b, double t)
+		{
+			Lerp(this, b, t, this);
+		}
+
+		public void Lerp(SplineResult b, float t)
+		{
+			Lerp(this, b, t, this);
+		}
+
+		public void CopyFrom(SplineResult input)
+		{
+			position = input.position;
+			direction = input.direction;
+			normal = input.normal;
+			color = input.color;
+			size = input.size;
+			percent = input.percent;
+		}
+	}
+}

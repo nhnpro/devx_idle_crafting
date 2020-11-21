@@ -1,0 +1,8 @@
+BABECAGEnBkoMCamuf7E2rHTreyg3xvy1I5lqSWGVhzkdpz1TvU=
+ID	AppName	iOSAppId	PackageId	LaunchUrl	WebUrl	AppsFlyerUrl
+TW	twitter		com.twitter.android	twitter://user?user_id=925144738428325888	https://twitter.com/craftawaygame	
+IN	instagram		com.instagram.android	http://instagram.com/idlecraftingempire/	https://www.instagram.com/idlecraftingempire/	
+FA	farmaway	1018795567	com.futureplay.boots			https://fa.onelink.me/4113711637?pid=xpromo&c=
+BA	buildaway	1079852672	com.futureplay.city			https://ba.onelink.me/2469810429?pid=xpromo&c=
+CA	craftaway	1153498642	com.futureplay.minecraft			https://ca.onelink.me/mmmR?pid=xpromo&c=
+SA	staraway	1192330031	com.futureplay.life			https://sl.onelink.me/rjhE?pid=xpromo&c=

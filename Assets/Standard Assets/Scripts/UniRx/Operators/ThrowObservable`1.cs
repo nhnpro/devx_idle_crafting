@@ -1,0 +1,78 @@
+using System;
+
+namespace UniRx.Operators
+{
+	internal class ThrowObservable<T> : OperatorObservableBase<T>
+	{
+		private class Throw : OperatorObserverBase<T, T>
+		{
+			public Throw(UniRx.IObserver<T> observer, IDisposable cancel)
+				: base(observer, cancel)
+			{
+			}
+
+			public override void OnNext(T value)
+			{
+				try
+				{
+					observer.OnNext(value);
+				}
+				catch
+				{
+					Dispose();
+					throw;
+				}
+			}
+
+			public override void OnError(Exception error)
+			{
+				try
+				{
+					observer.OnError(error);
+				}
+				finally
+				{
+					Dispose();
+				}
+			}
+
+			public override void OnCompleted()
+			{
+				try
+				{
+					observer.OnCompleted();
+				}
+				finally
+				{
+					Dispose();
+				}
+			}
+		}
+
+		private readonly Exception error;
+
+		private readonly IScheduler scheduler;
+
+		public ThrowObservable(Exception error, IScheduler scheduler)
+			: base(scheduler == Scheduler.CurrentThread)
+		{
+			this.error = error;
+			this.scheduler = scheduler;
+		}
+
+		protected override IDisposable SubscribeCore(UniRx.IObserver<T> observer, IDisposable cancel)
+		{
+			observer = new Throw(observer, cancel);
+			if (scheduler == Scheduler.Immediate)
+			{
+				observer.OnError(error);
+				return Disposable.Empty;
+			}
+			return scheduler.Schedule(delegate
+			{
+				observer.OnError(error);
+				observer.OnCompleted();
+			});
+		}
+	}
+}

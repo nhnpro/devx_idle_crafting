@@ -1,0 +1,22 @@
+BABECAGEjOFKBW4rF2CgXHiTW5HqPGzKAFqp+iyiSgSkTbtuANs=
+Tier	Rank
+1	Normal
+2	Normal
+3	Normal
+4	Normal
+5	Bronze
+6	Bronze
+7	Bronze
+8	Bronze
+9	Bronze
+10	Silver
+11	Silver
+12	Silver
+13	Silver
+14	Silver
+15	Gold
+16	Gold
+17	Gold
+18	Gold
+19	Gold
+20	Platinum

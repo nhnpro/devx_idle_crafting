@@ -1,0 +1,6 @@
+BABECAGEGI+78lC/9VaYVDi8o/D7XG8R6nikD5+rpNKruwZqvb4=
+Name	Facebook	AdMob	Unity	AdColony
+Floor1	4000	4000		
+Floor2	2000	2000		
+Floor3	1000	1000		
+BackFill	50	50	100	100

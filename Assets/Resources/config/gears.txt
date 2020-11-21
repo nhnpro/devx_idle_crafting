@@ -1,0 +1,23 @@
+BABECAGEcNqhFzeYiZZllNxoui1ziUHJ9TNoUgcZIV+2vd87ENI=
+ID	GearSet	Category	Name	UpgradeCostA	UpgradeCostB	UpgradeCostC	MaxLevel	Boost1	Boost1LevelUpType	Boost1LevelUp	Boost2	Boost2LevelUpType	Boost2LevelUp
+0	0	Hero		16	1.4	5	20	AllDamageX2	Add	0.6	SkillTNTDamageX1.05	Add	0.05
+1	0	Hero		39	1.4	5	20	AllDamageX2.5	Add	0.6	CriticalTapDamageX1.05	Add	0.01
+2	0	Hero		318	1.4	5	20	AllDamageX3.5	Add	0.6	CriticalTapChanceX1.01	Add	0.01
+3	1	Hero		39	1.4	5	20	AllDamageX2	Add	0.6	MaterialDropX1.05	Add	0.05
+4	1	Hero		145	1.4	5	20	AllDamageX3	Add	0.6	BossCoinDropX1.05	Add	0.05
+5	1	Hero		2458	1.4	5	10	AllDamageX5	Add	0.6	HeroUpgradeCostX0.95	Add	-0.02
+6	2	Hero		675	1.4	5	20	AllDamageX4	Add	0.6	BossTimeX0.5	Add	0.5
+7	2	Hero		1416	1.4	5	20	AllDamageX4.5	Add	0.6	SkillAutoMineDurationX1	Add	1
+8	2	Hero		7368	1.4	5	20	AllDamageX6.5	Add	0.6	SkillTeamBoostDurationX1	Add	1
+9	3	Hero		3546	1.4	5	20	AllDamageX5.5	Add	0.6	SkillTapBoostDurationX1	Add	1
+10	3	Hero		5112	1.4	5	20	AllDamageX6	Add	0.6	SkillGoldfingerDurationX1	Add	1
+11	3	Hero		18357	1.4	5	20	AllDamageX8	Add	0.6	SkillTNTDamageX1.05	Add	0.05
+12	4	Hero		10617	1.4	5	20	AllDamageX7	Add	0.6	TapDamageX1.05	Add	0.05
+13	4	Hero		12743	1.4	5	20	AllDamageX7.5	Add	0.6	CriticalTapDamageX1.05	Add	0.01
+14	4	Hero		22032	1.4	5	20	AllDamageX8.5	Add	0.6	CriticalTapChanceX1.01	Add	0.01
+15	5	Basecamp		3546	1.4	5	20	ConvertGrassX2	Add	0.2	TapDamageX1.05	Add	0.05
+16	5	Basecamp		3546	1.4	5	20	ConvertDirtX2	Add	0.2	CriticalTapDamageX1.05	Add	0.01
+17	5	Basecamp		3546	1.4	5	20	ConvertWoodX2	Add	0.2	CriticalTapChanceX1.01	Add	0.01
+18	6	Basecamp		3546	1.4	5	20	ConvertStoneX2	Add	0.2	MaterialDropX1.05	Add	0.05
+19	6	Basecamp		3546	1.4	5	20	ConvertMetalX2	Add	0.2	BossCoinDropX1.05	Add	0.05
+20	6	Basecamp		22000	1.7	5	10	ConvertJellyX1.5	Add	0.2	HeroUpgradeCostX0.95	Add	-0.02

@@ -1,0 +1,9 @@
+BABECAGElsUjP3py2OC6xYKLiJAFBbrsQG1EMywlrV2V6xJUZVQ=
+ID	InitialGemPrice	AddToGemPriceOnUpgrade	UpgradeBoost
+AllDamageX	300	0	AddX1
+AllProfitsX	500	0	AddX1
+PrestigeResourcesX	750	0	AddX0.5
+DailyDoubleX	300	0	AddX1
+KeyDropChanceX	300	0	AddX1
+AdProfitsX	200	0	AddX60
+BerrydropChanceX	400	0	AddX1

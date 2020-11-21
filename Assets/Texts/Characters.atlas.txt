@@ -1,0 +1,1182 @@
+
+Characters.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Companions/ArmL_Chicken
+  rotate: false
+  xy: 900, 963
+  size: 80, 81
+  orig: 80, 81
+  offset: 0, 0
+  index: -1
+Companions/ArmL_Fish
+  rotate: false
+  xy: 609, 26
+  size: 80, 81
+  orig: 80, 81
+  offset: 0, 0
+  index: -1
+Companions/ArmR_Chicken
+  rotate: false
+  xy: 996, 1163
+  size: 93, 83
+  orig: 93, 83
+  offset: 0, 0
+  index: -1
+Companions/ArmR_Fish
+  rotate: false
+  xy: 1308, 1131
+  size: 93, 83
+  orig: 93, 83
+  offset: 0, 0
+  index: -1
+Companions/Body_Bat
+  rotate: false
+  xy: 1, 6
+  size: 242, 221
+  orig: 242, 221
+  offset: 0, 0
+  index: -1
+Companions/Body_Bear
+  rotate: true
+  xy: 1438, 1814
+  size: 233, 269
+  orig: 233, 269
+  offset: 0, 0
+  index: -1
+Companions/Body_Chicken
+  rotate: false
+  xy: 906, 1753
+  size: 255, 294
+  orig: 255, 294
+  offset: 0, 0
+  index: -1
+Companions/Body_Cow
+  rotate: false
+  xy: 1, 228
+  size: 233, 269
+  orig: 233, 269
+  offset: 0, 0
+  index: -1
+Companions/Body_Creeper
+  rotate: false
+  xy: 405, 1238
+  size: 235, 233
+  orig: 235, 233
+  offset: 0, 0
+  index: -1
+Companions/Body_Deer
+  rotate: false
+  xy: 339, 1742
+  size: 286, 305
+  orig: 286, 305
+  offset: 0, 0
+  index: -1
+Companions/Body_Donkey
+  rotate: false
+  xy: 872, 1483
+  size: 228, 264
+  orig: 228, 264
+  offset: 0, 0
+  index: -1
+Companions/Body_Fish
+  rotate: false
+  xy: 1, 1050
+  size: 270, 298
+  orig: 270, 298
+  offset: 0, 0
+  index: -1
+Companions/Body_Ghost
+  rotate: false
+  xy: 1162, 1781
+  size: 275, 266
+  orig: 275, 266
+  offset: 0, 0
+  index: -1
+Companions/Body_Hedgehog
+  rotate: true
+  xy: 1708, 1814
+  size: 233, 269
+  orig: 233, 269
+  offset: 0, 0
+  index: -1
+Companions/Body_Horse
+  rotate: false
+  xy: 639, 1482
+  size: 232, 265
+  orig: 232, 265
+  offset: 0, 0
+  index: -1
+Companions/Body_Lhama
+  rotate: false
+  xy: 1, 498
+  size: 254, 270
+  orig: 254, 270
+  offset: 0, 0
+  index: -1
+Companions/Body_Panda
+  rotate: false
+  xy: 405, 1472
+  size: 233, 269
+  orig: 233, 269
+  offset: 0, 0
+  index: -1
+Companions/Body_Pig
+  rotate: true
+  xy: 641, 1243
+  size: 238, 231
+  orig: 238, 231
+  offset: 0, 0
+  index: -1
+Companions/Body_Pug
+  rotate: true
+  xy: 873, 1247
+  size: 235, 216
+  orig: 235, 216
+  offset: 0, 0
+  index: -1
+Companions/Body_Rabbit
+  rotate: true
+  xy: 1101, 1499
+  size: 253, 239
+  orig: 253, 239
+  offset: 0, 0
+  index: -1
+Companions/Body_Sheep
+  rotate: false
+  xy: 626, 1748
+  size: 279, 299
+  orig: 279, 299
+  offset: 0, 0
+  index: -1
+Companions/Body_Spider
+  rotate: true
+  xy: 1341, 1527
+  size: 253, 239
+  orig: 253, 239
+  offset: 0, 0
+  index: -1
+Companions/Body_Squid
+  rotate: false
+  xy: 1581, 1336
+  size: 242, 237
+  orig: 242, 237
+  offset: 0, 0
+  index: -1
+Companions/Body_Wolf
+  rotate: false
+  xy: 1581, 1574
+  size: 253, 239
+  orig: 253, 239
+  offset: 0, 0
+  index: -1
+Companions/EarL_Bat
+  rotate: true
+  xy: 1220, 1215
+  size: 81, 121
+  orig: 81, 121
+  offset: 0, 0
+  index: -1
+Companions/EarL_Bear
+  rotate: false
+  xy: 694, 481
+  size: 81, 121
+  orig: 81, 121
+  offset: 0, 0
+  index: -1
+Companions/EarL_Cow
+  rotate: true
+  xy: 1824, 1336
+  size: 68, 118
+  orig: 68, 118
+  offset: 0, 0
+  index: -1
+Companions/EarL_Deer
+  rotate: true
+  xy: 480, 820
+  size: 68, 118
+  orig: 68, 118
+  offset: 0, 0
+  index: -1
+Companions/EarL_Donkey
+  rotate: false
+  xy: 770, 616
+  size: 81, 121
+  orig: 81, 121
+  offset: 0, 0
+  index: -1
+Companions/EarL_Hedgehog
+  rotate: false
+  xy: 776, 494
+  size: 81, 121
+  orig: 81, 121
+  offset: 0, 0
+  index: -1
+Companions/EarL_Horse
+  rotate: false
+  xy: 789, 372
+  size: 81, 121
+  orig: 81, 121
+  offset: 0, 0
+  index: -1
+Companions/EarL_Lhama
+  rotate: false
+  xy: 789, 250
+  size: 81, 121
+  orig: 81, 121
+  offset: 0, 0
+  index: -1
+Companions/EarL_Panda
+  rotate: true
+  xy: 1432, 1412
+  size: 81, 121
+  orig: 81, 121
+  offset: 0, 0
+  index: -1
+Companions/EarL_Pig
+  rotate: false
+  xy: 272, 1238
+  size: 109, 110
+  orig: 109, 110
+  offset: 0, 0
+  index: -1
+Companions/EarL_Pug
+  rotate: false
+  xy: 651, 110
+  size: 109, 110
+  orig: 109, 110
+  offset: 0, 0
+  index: -1
+Companions/EarL_Rabbit
+  rotate: false
+  xy: 821, 128
+  size: 81, 121
+  orig: 81, 121
+  offset: 0, 0
+  index: -1
+Companions/EarL_Sheep
+  rotate: true
+  xy: 1338, 1307
+  size: 68, 118
+  orig: 68, 118
+  offset: 0, 0
+  index: -1
+Companions/EarR_Bat
+  rotate: true
+  xy: 479, 26
+  size: 81, 129
+  orig: 81, 129
+  offset: 0, 0
+  index: -1
+Companions/EarR_Cow
+  rotate: false
+  xy: 1090, 1298
+  size: 82, 128
+  orig: 82, 128
+  offset: 0, 0
+  index: -1
+Companions/EarR_Deer
+  rotate: false
+  xy: 1173, 1298
+  size: 82, 128
+  orig: 82, 128
+  offset: 0, 0
+  index: -1
+Companions/EarR_Donkey
+  rotate: true
+  xy: 1090, 1216
+  size: 81, 129
+  orig: 81, 129
+  offset: 0, 0
+  index: -1
+Companions/EarR_Hedgehog
+  rotate: false
+  xy: 1256, 1297
+  size: 81, 129
+  orig: 81, 129
+  offset: 0, 0
+  index: -1
+Companions/EarR_Horse
+  rotate: false
+  xy: 600, 697
+  size: 81, 129
+  orig: 81, 129
+  offset: 0, 0
+  index: -1
+Companions/EarR_Lhama
+  rotate: false
+  xy: 682, 732
+  size: 81, 129
+  orig: 81, 129
+  offset: 0, 0
+  index: -1
+Companions/EarR_Pig
+  rotate: false
+  xy: 664, 901
+  size: 117, 145
+  orig: 117, 145
+  offset: 0, 0
+  index: -1
+Companions/EarR_Pug
+  rotate: false
+  xy: 782, 901
+  size: 117, 145
+  orig: 117, 145
+  offset: 0, 0
+  index: -1
+Companions/EarR_Rabbit
+  rotate: false
+  xy: 847, 779
+  size: 81, 121
+  orig: 81, 121
+  offset: 0, 0
+  index: -1
+Companions/EarR_Sheep
+  rotate: false
+  xy: 687, 603
+  size: 82, 128
+  orig: 82, 128
+  offset: 0, 0
+  index: -1
+Companions/EarR_Wolf
+  rotate: false
+  xy: 852, 657
+  size: 81, 121
+  orig: 81, 121
+  offset: 0, 0
+  index: -1
+Companions/EyeCaptured
+  rotate: false
+  xy: 871, 279
+  size: 56, 65
+  orig: 56, 65
+  offset: 0, 0
+  index: -1
+Companions/Eyes_EyeL
+  rotate: true
+  xy: 923, 1139
+  size: 62, 71
+  orig: 62, 71
+  offset: 0, 0
+  index: -1
+Companions/Eyes_EyeR
+  rotate: false
+  xy: 1237, 1427
+  size: 70, 71
+  orig: 70, 71
+  offset: 0, 0
+  index: -1
+Companions/Eyes_EyebrowL
+  rotate: false
+  xy: 1013, 1057
+  size: 68, 30
+  orig: 68, 30
+  offset: 0, 0
+  index: -1
+Companions/Eyes_EyebrowR
+  rotate: false
+  xy: 871, 250
+  size: 61, 28
+  orig: 61, 28
+  offset: 0, 0
+  index: -1
+Companions/Eyes_IrisL
+  rotate: false
+  xy: 789, 221
+  size: 31, 28
+  orig: 31, 28
+  offset: 0, 0
+  index: -1
+Companions/Eyes_IrisR
+  rotate: true
+  xy: 1554, 1421
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+Companions/Eyes_ShadowL
+  rotate: false
+  xy: 600, 599
+  size: 86, 97
+  orig: 86, 97
+  offset: 0, 0
+  index: -1
+Companions/Eyes_ShadowR
+  rotate: false
+  xy: 1457, 1314
+  size: 93, 97
+  orig: 93, 97
+  offset: 0, 0
+  index: -1
+Companions/FX_Attack0001
+  rotate: true
+  xy: 918, 541
+  size: 115, 41
+  orig: 115, 41
+  offset: 0, 0
+  index: -1
+Companions/FX_Attack0002
+  rotate: false
+  xy: 664, 862
+  size: 140, 38
+  orig: 140, 38
+  offset: 0, 0
+  index: -1
+Companions/FX_Attack0003
+  rotate: false
+  xy: 873, 1202
+  size: 122, 44
+  orig: 122, 44
+  offset: 0, 0
+  index: -1
+Companions/FX_Attack0004
+  rotate: false
+  xy: 1090, 1160
+  size: 111, 55
+  orig: 111, 55
+  offset: 0, 0
+  index: -1
+Companions/FX_Attack0005
+  rotate: false
+  xy: 836, 1047
+  size: 91, 83
+  orig: 91, 83
+  offset: 0, 0
+  index: -1
+Companions/FX_Attack0006
+  rotate: true
+  xy: 1342, 1215
+  size: 91, 111
+  orig: 91, 111
+  offset: 0, 0
+  index: -1
+Companions/FX_Attack0007
+  rotate: false
+  xy: 721, 354
+  size: 67, 126
+  orig: 67, 126
+  offset: 0, 0
+  index: -1
+Companions/FX_Attack0008
+  rotate: true
+  xy: 277, 1435
+  size: 280, 127
+  orig: 280, 127
+  offset: 0, 0
+  index: -1
+Companions/Foot2_Creeper
+  rotate: false
+  xy: 1087, 1011
+  size: 58, 62
+  orig: 58, 62
+  offset: 0, 0
+  index: -1
+Companions/Foot2_Spider
+  rotate: false
+  xy: 903, 119
+  size: 58, 62
+  orig: 58, 62
+  offset: 0, 0
+  index: -1
+Companions/Foot2_Squid
+  rotate: false
+  xy: 903, 56
+  size: 58, 62
+  orig: 58, 62
+  offset: 0, 0
+  index: -1
+Companions/Foot3_Spider
+  rotate: false
+  xy: 922, 403
+  size: 46, 35
+  orig: 46, 35
+  offset: 0, 0
+  index: -1
+Companions/Foot3_Squid
+  rotate: false
+  xy: 921, 367
+  size: 46, 35
+  orig: 46, 35
+  offset: 0, 0
+  index: -1
+Companions/Foot_Bat
+  rotate: true
+  xy: 858, 495
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Foot_Bear
+  rotate: false
+  xy: 903, 1
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Foot_Chicken
+  rotate: false
+  xy: 954, 1
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Foot_Cow
+  rotate: false
+  xy: 934, 684
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Foot_Creeper
+  rotate: true
+  xy: 1023, 941
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Foot_Deer
+  rotate: true
+  xy: 1009, 890
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Foot_Donkey
+  rotate: false
+  xy: 992, 790
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Foot_Hedgehog
+  rotate: false
+  xy: 950, 900
+  size: 58, 62
+  orig: 58, 62
+  offset: 0, 0
+  index: -1
+Companions/Foot_Horse
+  rotate: true
+  xy: 988, 739
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Foot_Lhama
+  rotate: false
+  xy: 985, 684
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Foot_Panda
+  rotate: false
+  xy: 960, 629
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Foot_Pig
+  rotate: false
+  xy: 960, 574
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Foot_Pug
+  rotate: false
+  xy: 1011, 629
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Foot_Sheep
+  rotate: false
+  xy: 1011, 574
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Foot_Spider
+  rotate: false
+  xy: 1036, 684
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Foot_Squid
+  rotate: false
+  xy: 1062, 629
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+Companions/Fx
+  rotate: false
+  xy: 453, 824
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+Companions/Hair1_Creeper
+  rotate: false
+  xy: 929, 792
+  size: 62, 48
+  orig: 62, 48
+  offset: 0, 0
+  index: -1
+Companions/Hair2_Creeper
+  rotate: false
+  xy: 805, 869
+  size: 41, 31
+  orig: 41, 31
+  offset: 0, 0
+  index: -1
+Companions/Hair_Lhama
+  rotate: false
+  xy: 662, 1147
+  size: 185, 95
+  orig: 185, 95
+  offset: 0, 0
+  index: -1
+Companions/Mouth_Creeper
+  rotate: false
+  xy: 266, 760
+  size: 186, 78
+  orig: 186, 78
+  offset: 0, 0
+  index: -1
+Companions/Mouth_Fish
+  rotate: false
+  xy: 1835, 1552
+  size: 186, 78
+  orig: 186, 78
+  offset: 0, 0
+  index: -1
+Companions/Mouth_Ghost
+  rotate: true
+  xy: 1944, 1365
+  size: 186, 78
+  orig: 186, 78
+  offset: 0, 0
+  index: -1
+Companions/Nose_Bat
+  rotate: false
+  xy: 453, 707
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Nose_Bear
+  rotate: false
+  xy: 453, 594
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Nose_Chicken
+  rotate: false
+  xy: 400, 481
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Nose_Cow
+  rotate: true
+  xy: 235, 351
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Nose_Deer
+  rotate: false
+  xy: 235, 238
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Nose_Donkey
+  rotate: true
+  xy: 244, 91
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Nose_Hedgehog
+  rotate: false
+  xy: 348, 368
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Nose_Horse
+  rotate: true
+  xy: 382, 221
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Nose_Panda
+  rotate: false
+  xy: 357, 108
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Nose_Pig
+  rotate: true
+  xy: 495, 334
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Nose_Pug
+  rotate: false
+  xy: 495, 221
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Nose_Rabbit
+  rotate: false
+  xy: 504, 108
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Nose_Spider
+  rotate: false
+  xy: 547, 481
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Nose_Squid
+  rotate: true
+  xy: 608, 334
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Nose_Wolf
+  rotate: false
+  xy: 642, 221
+  size: 146, 112
+  orig: 146, 112
+  offset: 0, 0
+  index: -1
+Companions/Tongue_Ghost
+  rotate: false
+  xy: 244, 3
+  size: 113, 87
+  orig: 113, 87
+  offset: 0, 0
+  index: -1
+Companions/WingR_Bat
+  rotate: false
+  xy: 928, 1045
+  size: 84, 93
+  orig: 84, 93
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_ArmRight
+  rotate: true
+  xy: 1101, 1427
+  size: 71, 135
+  orig: 71, 135
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_Body
+  rotate: false
+  xy: 266, 839
+  size: 213, 200
+  orig: 213, 200
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_Ear
+  rotate: false
+  xy: 1146, 1011
+  size: 50, 62
+  orig: 50, 62
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_EyeLeft
+  rotate: false
+  xy: 922, 439
+  size: 46, 56
+  orig: 46, 56
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_EyeRight
+  rotate: true
+  xy: 599, 827
+  size: 55, 64
+  orig: 55, 64
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_Eyebrows
+  rotate: false
+  xy: 1943, 1327
+  size: 60, 37
+  orig: 60, 37
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_Glasses2
+  rotate: false
+  xy: 272, 1040
+  size: 231, 197
+  orig: 231, 197
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_HairTop
+  rotate: false
+  xy: 1, 769
+  size: 264, 280
+  orig: 264, 280
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_Hand1
+  rotate: false
+  xy: 871, 345
+  size: 49, 74
+  orig: 49, 74
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_Hand2
+  rotate: false
+  xy: 903, 182
+  size: 45, 67
+  orig: 45, 67
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_Head Shape
+  rotate: false
+  xy: 1835, 1631
+  size: 212, 182
+  orig: 212, 182
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_JellyTank
+  rotate: false
+  xy: 1, 1716
+  size: 337, 331
+  orig: 337, 331
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_JellyTankRingDown
+  rotate: false
+  xy: 934, 739
+  size: 53, 52
+  orig: 53, 52
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_JellyTankRingTop
+  rotate: false
+  xy: 1402, 1125
+  size: 54, 89
+  orig: 54, 89
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_LegLeft
+  rotate: false
+  xy: 761, 110
+  size: 59, 110
+  orig: 59, 110
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_LegRight
+  rotate: false
+  xy: 858, 546
+  size: 59, 110
+  orig: 59, 110
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_Mustache
+  rotate: true
+  xy: 599, 883
+  size: 152, 64
+  orig: 152, 64
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_Nose
+  rotate: false
+  xy: 1023, 992
+  size: 63, 64
+  orig: 63, 64
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_Strap
+  rotate: false
+  xy: 929, 841
+  size: 58, 58
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_TankJelly
+  rotate: true
+  xy: 900, 901
+  size: 61, 49
+  orig: 61, 49
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_TentacleBottom
+  rotate: false
+  xy: 1824, 1405
+  size: 119, 146
+  orig: 119, 146
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_TentaclePart
+  rotate: false
+  xy: 1084, 1115
+  size: 98, 44
+  orig: 98, 44
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_TentacleTop
+  rotate: false
+  xy: 480, 889
+  size: 118, 146
+  orig: 118, 146
+  offset: 0, 0
+  index: -1
+DrJelly/DRJ_hair1
+  rotate: true
+  xy: 277, 1350
+  size: 31, 71
+  orig: 31, 71
+  offset: 0, 0
+  index: -1
+DrJelly/EffectBlur
+  rotate: true
+  xy: 2004, 1329
+  size: 35, 43
+  orig: 35, 43
+  offset: 0, 0
+  index: -1
+DrJelly/JellyProjectile
+  rotate: false
+  xy: 1338, 1376
+  size: 93, 117
+  orig: 93, 117
+  offset: 0, 0
+  index: -1
+DrJelly/Shot_Effect
+  rotate: true
+  xy: 662, 1047
+  size: 99, 173
+  orig: 99, 173
+  offset: 0, 0
+  index: -1
+Hero/ArmL
+  rotate: false
+  xy: 1084, 1074
+  size: 96, 40
+  orig: 96, 40
+  offset: 0, 0
+  index: -1
+Hero/Backpack
+  rotate: false
+  xy: 256, 640
+  size: 152, 119
+  orig: 152, 119
+  offset: 0, 0
+  index: -1
+Hero/BagStrap
+  rotate: false
+  xy: 871, 420
+  size: 50, 74
+  orig: 50, 74
+  offset: 0, 0
+  index: -1
+Hero/Body
+  rotate: false
+  xy: 358, 11
+  size: 120, 96
+  orig: 120, 96
+  offset: 0, 0
+  index: -1
+Hero/Dust1
+  rotate: false
+  xy: 277, 1382
+  size: 127, 52
+  orig: 127, 52
+  offset: 0, 0
+  index: -1
+Hero/EyeL
+  rotate: false
+  xy: 2022, 1600
+  size: 15, 30
+  orig: 15, 30
+  offset: 0, 0
+  index: -1
+Hero/EyeR
+  rotate: true
+  xy: 339, 1719
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+Hero/FootL
+  rotate: true
+  xy: 2027, 2014
+  size: 33, 20
+  orig: 33, 20
+  offset: 0, 0
+  index: -1
+Hero/Glasses
+  rotate: false
+  xy: 1202, 1161
+  size: 105, 53
+  orig: 105, 53
+  offset: 0, 0
+  index: -1
+Hero/Hair
+  rotate: true
+  xy: 504, 1036
+  size: 201, 157
+  orig: 201, 157
+  offset: 0, 0
+  index: -1
+Hero/Hammer2
+  rotate: true
+  xy: 1, 1349
+  size: 366, 275
+  orig: 366, 275
+  offset: 0, 0
+  index: -1
+Hero/HammerLight2
+  rotate: true
+  xy: 764, 738
+  size: 123, 82
+  orig: 123, 82
+  offset: 0, 0
+  index: -1
+Hero/HammerPole
+  rotate: false
+  xy: 1978, 1854
+  size: 48, 193
+  orig: 48, 193
+  offset: 0, 0
+  index: -1
+Hero/HammerTrail
+  rotate: true
+  xy: 1341, 1494
+  size: 32, 235
+  orig: 32, 235
+  offset: 0, 0
+  index: -1
+Hero/HandClosed
+  rotate: true
+  xy: 848, 1131
+  size: 70, 74
+  orig: 70, 74
+  offset: 0, 0
+  index: -1
+Hero/HandGrip
+  rotate: false
+  xy: 690, 35
+  size: 70, 74
+  orig: 70, 74
+  offset: 0, 0
+  index: -1
+Hero/HandOpenBottom
+  rotate: false
+  xy: 761, 35
+  size: 70, 74
+  orig: 70, 74
+  offset: 0, 0
+  index: -1
+Hero/HandOpenTop
+  rotate: false
+  xy: 832, 53
+  size: 70, 74
+  orig: 70, 74
+  offset: 0, 0
+  index: -1
+Hero/HandROpen
+  rotate: false
+  xy: 1978, 1816
+  size: 56, 37
+  orig: 56, 37
+  offset: 0, 0
+  index: -1
+Hero/HandWeaponBack
+  rotate: false
+  xy: 1013, 1088
+  size: 70, 74
+  orig: 70, 74
+  offset: 0, 0
+  index: -1
+Hero/HandWeaponFront
+  rotate: false
+  xy: 1062, 575
+  size: 36, 53
+  orig: 36, 53
+  offset: 0, 0
+  index: -1
+Hero/Head
+  rotate: false
+  xy: 256, 511
+  size: 143, 128
+  orig: 143, 128
+  offset: 0, 0
+  index: -1
+Hero/Hips
+  rotate: false
+  xy: 1438, 1783
+  size: 95, 30
+  orig: 95, 30
+  offset: 0, 0
+  index: -1
+Hero/Hit3
+  rotate: true
+  xy: 409, 637
+  size: 122, 43
+  orig: 122, 43
+  offset: 0, 0
+  index: -1
+Hero/HitMesh
+  rotate: true
+  xy: 1554, 1450
+  size: 43, 26
+  orig: 43, 26
+  offset: 0, 0
+  index: -1
+Hero/LegL
+  rotate: false
+  xy: 981, 964
+  size: 41, 80
+  orig: 41, 80
+  offset: 0, 0
+  index: -1
+Hero/Nose
+  rotate: false
+  xy: 1162, 1753
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+Hero/Shadow
+  rotate: false
+  xy: 400, 594
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+Hero/ShoulderL
+  rotate: true
+  xy: 913, 496
+  size: 44, 50
+  orig: 44, 50
+  offset: 0, 0
+  index: -1
+Hero/ShoulderR
+  rotate: true
+  xy: 988, 845
+  size: 44, 50
+  orig: 44, 50
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,10 @@
+BABECAGE2xi4hvoMoUDTdazUrSBqmTZ6DbudFTCWi8f3wE7X2hs=
+ProductEnum	BundleTier
+bundle1	1
+bundle2	1
+bundle3	1
+bundle4	2
+bundle5	2
+bundle6	3
+bundle7	3
+bundle8	3

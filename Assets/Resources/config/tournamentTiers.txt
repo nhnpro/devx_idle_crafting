@@ -1,0 +1,5 @@
+BABECAGEPun2TwYbe/heMJzo7OBhjtNj55yGmwfQIqq4J2TySjY=
+Trophy	Reward	Requirement
+Bronze	AllCompanionDamageX5	100
+Silver	TapDamageX9	500
+Gold	AllDamageX21	5000

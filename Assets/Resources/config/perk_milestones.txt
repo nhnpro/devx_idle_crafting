@@ -1,0 +1,23 @@
+BABECAGEF9ZBIu8tL3fkrnfsoOlrRRWGlPW33igdHGyDWNIEppo=
+Hero	10	20	50	100	200	400	800	1000
+0	NoneX1	NoneX1	NoneX1	NoneX1	NoneX1	NoneX1	NoneX1	NoneX1
+1	AllDamageX1.4	BossTimeX1	AllCompanionDamageX1.75	SkillTNTDamageX1.2	HeroUpgradeCostX0.7	SkillTeamBoostDurationX1	CriticalTapDamageX1.1	BossCoinDropX1.1
+2	BossTimeX1	AllDamageX1.4	SkillTNTDamageX1.2	AllCompanionDamageX1.75	SkillTeamBoostDurationX1	HeroUpgradeCostX0.7	MaterialDropX1.1	CriticalTapChanceX1.02
+3	AllCompanionDamageX1.75	SkillTNTDamageX1.2	AllDamageX1.4	BossTimeX1	HeroUpgradeCostX0.7	CriticalTapDamageX1.1	BossCoinDropX1.1	SkillGoldfingerDurationX1
+4	SkillTNTDamageX1.2	AllCompanionDamageX1.75	BossTimeX1	AllDamageX1.4	MaterialDropX1.1	HeroUpgradeCostX0.7	SkillTapBoostDurationX1	CriticalTapChanceX1.02
+5	AllDamageX1.4	BossTimeX1	AllCompanionDamageX1.75	SkillAutoMineDurationX1	HeroUpgradeCostX0.7	SkillTapBoostDurationX1	MaterialDropX1.1	CriticalTapChanceX1.02
+6	BossTimeX1	AllDamageX1.4	SkillAutoMineDurationX1	AllCompanionDamageX1.75	SkillTapBoostDurationX1	HeroUpgradeCostX0.7	CriticalTapDamageX1.1	BossCoinDropX1.1
+7	AllCompanionDamageX1.75	SkillAutoMineDurationX1	AllDamageX1.4	BossTimeX1	HeroUpgradeCostX0.7	MaterialDropX1.1	CriticalTapChanceX1.02	SkillGoldfingerDurationX1
+8	SkillAutoMineDurationX1	AllCompanionDamageX1.75	BossTimeX1	AllDamageX1.4	BossCoinDropX1.1	HeroUpgradeCostX0.7	SkillGoldfingerDurationX1	CriticalTapDamageX1.1
+9	AllDamageX1.4	BossTimeX1	AllCompanionDamageX1.75	SkillTeamBoostDurationX1	HeroUpgradeCostX0.7	SkillGoldfingerDurationX1	CriticalTapChanceX1.02	BossCoinDropX1.1
+10	BossTimeX1	AllDamageX1.4	SkillTeamBoostDurationX1	AllCompanionDamageX1.75	SkillGoldfingerDurationX1	HeroUpgradeCostX0.7	CriticalTapDamageX1.1	MaterialDropX1.1
+11	AllCompanionDamageX1.75	SkillTeamBoostDurationX1	AllDamageX1.4	BossTimeX1	HeroUpgradeCostX0.7	CriticalTapDamageX1.1	BossCoinDropX1.1	SkillAutoMineDurationX1
+12	SkillTeamBoostDurationX1	AllCompanionDamageX1.75	BossTimeX1	AllDamageX1.4	CriticalTapChanceX1.02	HeroUpgradeCostX0.7	SkillAutoMineDurationX1	MaterialDropX1.1
+13	AllDamageX1.4	BossTimeX1	AllCompanionDamageX1.75	SkillTapBoostDurationX1	HeroUpgradeCostX0.7	SkillTNTDamageX1.2	BossCoinDropX1.1	MaterialDropX1.1
+14	BossTimeX1	AllDamageX1.4	SkillTapBoostDurationX1	AllCompanionDamageX1.75	SkillTNTDamageX1.2	HeroUpgradeCostX0.7	CriticalTapChanceX1.02	CriticalTapDamageX1.1
+15	AllCompanionDamageX1.75	SkillTapBoostDurationX1	AllDamageX1.4	BossTimeX1	HeroUpgradeCostX0.7	MaterialDropX1.1	CriticalTapDamageX1.1	SkillGoldfingerDurationX1
+16	SkillTapBoostDurationX1	AllCompanionDamageX1.75	BossTimeX1	AllDamageX1.4	CriticalTapChanceX1.02	HeroUpgradeCostX0.7	SkillTNTDamageX1.2	BossCoinDropX1.1
+17	AllDamageX1.4	BossTimeX1	AllCompanionDamageX1.75	SkillGoldfingerDurationX1	HeroUpgradeCostX0.7	SkillTeamBoostDurationX1	MaterialDropX1.1	CriticalTapDamageX1.1
+18	BossTimeX1	AllDamageX1.4	SkillAutoMineDurationX1	AllCompanionDamageX1.75	SkillTNTDamageX1.2	HeroUpgradeCostX0.7	BossCoinDropX1.1	CriticalTapChanceX1.02
+19	AllCompanionDamageX1.75	SkillTeamBoostDurationX1	AllDamageX1.4	BossTimeX1	HeroUpgradeCostX0.7	CriticalTapDamageX1.1	CriticalTapChanceX1.02	SkillAutoMineDurationX1
+20	SkillGoldfingerDurationX1	AllCompanionDamageX1.75	BossTimeX1	AllDamageX1.4	BossCoinDropX1.1	HeroUpgradeCostX0.7	SkillTapBoostDurationX1	MaterialDropX1.1

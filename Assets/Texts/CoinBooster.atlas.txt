@@ -1,0 +1,27 @@
+
+CoinBooster.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assets/Coin
+  rotate: false
+  xy: 1, 22
+  size: 85, 92
+  orig: 85, 92
+  offset: 0, 0
+  index: -1
+Assets/FireMesh
+  rotate: false
+  xy: 87, 99
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+Assets/Particle
+  rotate: false
+  xy: 1, 1
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1

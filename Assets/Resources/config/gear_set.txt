@@ -1,0 +1,9 @@
+BABECAGEmfOaasZIp1f8v7VubUtFUIZZrF5aMeNt3TinFXbapwc=
+GearSet	HeroLevel	FullSetBoost
+0	55	AllDamageX2
+1	55	TapDamageX2
+2	145	AllCompanionDamageX2
+3	145	CriticalTapChanceX1.05
+4	255	CriticalTapDamageX1.1
+5	365	BossCoinDropX5
+6	455	MaterialDropX2

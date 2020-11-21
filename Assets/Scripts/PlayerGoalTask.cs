@@ -1,0 +1,20 @@
+public enum PlayerGoalTask
+{
+	None,
+	Never,
+	Skip,
+	Triggered,
+	AmountCoins,
+	AmountBlocks,
+	HeroLevel,
+	NumCreatures,
+	NumPrestiges,
+	AmountSkillUsed,
+	NumGears,
+	AmountRelics,
+	HeroTier,
+	Chunk,
+	OpenChests,
+	TapBlocks,
+	StartAdventure
+}

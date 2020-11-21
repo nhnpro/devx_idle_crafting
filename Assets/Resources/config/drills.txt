@@ -1,0 +1,9 @@
+BABECAGEJWPFRVXBpQ6nxY3aUmD50USiUhBq8wXT5iUhDL+tAHE=
+Level	Reward
+1	AddToCoinsX0
+2	AddChestBronzeX1
+3	AddToKeysX20
+4	AddChestSilverX1
+5	AddToGemsX5
+6	AddChestGoldX1
+7	AddToResourcesX0

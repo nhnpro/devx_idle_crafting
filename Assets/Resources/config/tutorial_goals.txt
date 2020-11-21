@@ -1,0 +1,23 @@
+BABECAGEh01R3LfpkVWji3lG56jJaKR31VQysLoHqmziycjBOXs=
+ID			Task	Parameter	LvlReq	Star1	Star2	Star3	Star4	Star5
+Tutorial.Intro			Never		0	0	0	0	0	0
+Tutorial.CollectFirstCoins			AmountCoins		0	200	-1	-1	-1	-1
+Tutorial.UpgradeHero1			HeroLevel	0	0	2	-1	-1	-1	-1
+Tutorial.CatchCreatures1			NumCreatures		0	1	-1	-1	-1	-1
+Tutorial.UpgradeCreature			HeroLevel	1	0	2	-1	-1	-1	-1
+Tutorial.UpgradeHero10			Chunk		0	15	-1	-1	-1	-1
+Tutorial.HammerTime			Triggered		0	1	-1	-1	-1	-1
+Tutorial.UpgradeHero2			HeroLevel	0	0	15	-1	-1	-1	-1
+Tutorial.UpgradeHero25			Chunk		0	25	-1	-1	-1	-1
+Tutorial.ReachChunk			Skip		0	20	-1	-1	-1	-1
+Tutorial.Drill			Triggered		0	1	-1	-1	-1	-1
+Tutorial.UnlockSocial			Chunk		0	31	-1	-1	-1	-1
+Tutorial.OpenSocial			Triggered		0	1	-1	-1	-1	-1
+Tutorial.UnlockPods			Chunk		0	35	-1	-1	-1	-1
+Tutorial.OpenPods			Triggered		0	1	-1	-1	-1	-1
+Tutorial.FindBlueprints			Chunk		0	55	-1	-1	-1	-1
+Tutorial.UpgradeHero3			Chunk		0	70	-1	-1	-1	-1
+Tutorial.NumPrestiges			NumPrestiges		0	1	-1	-1	-1	-1
+Tutorial.CraftGears			NumGears		0	1	-1	-1	-1	-1
+Tutorial.CraftGearsCompleted			StartAdventure		0	1	-1	-1	-1	-1
+Tutorial.End			Never		0	0	-1	-1	-1	-1

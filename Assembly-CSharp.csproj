@@ -1,0 +1,1853 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{af8cbee5-7ff1-a71c-2aff-f6b7cff1a8e5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_1_13;UNITY_2020_1;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_INCLUDE_TESTS;UNITY_PURCHASING;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;FP_DEVELOP;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Utils\serializableSHC.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\ObjectController.cs" />
+     <Compile Include="Assets\Scripts\BlockHelper.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityARAlignment.cs" />
+     <Compile Include="Assets\Scripts\AdHistory.cs" />
+     <Compile Include="Assets\Scripts\PerkRunnerContext.cs" />
+     <Compile Include="Assets\Scripts\UIShowAd.cs" />
+     <Compile Include="Assets\Scripts\Utils\serializableARSessionConfiguration.cs" />
+     <Compile Include="Assets\Scripts\EmptyAdProvider.cs" />
+     <Compile Include="Assets\Scripts\SingletonManager.cs" />
+     <Compile Include="Assets\Scripts\UIGearCraftingSequenceManager.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SkeletonUtility.cs" />
+     <Compile Include="Assets\Scripts\UISkillProfileParent.cs" />
+     <Compile Include="Assets\Scripts\UICloseMap.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyIntText.cs" />
+     <Compile Include="Assets\Scripts\Utils\serializableFromEditorMessage.cs" />
+     <Compile Include="Assets\Scripts\TickerService.cs" />
+     <Compile Include="Assets\Scripts\HeroCostRunner.cs" />
+     <Compile Include="Assets\Scripts\Utils\serializableARKitInit.cs" />
+     <Compile Include="Assets\Scripts\XPromoPlugin.cs" />
+     <Compile Include="Assets\Scripts\UISetMapCameraForCanvas.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityARMatrixOps.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyLocalizedIntText.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SpineSkin.cs" />
+     <Compile Include="Assets\Scripts\UILanguageButtonManager.cs" />
+     <Compile Include="Assets\Scripts\Unity\Performance\ValueBinUtils.cs" />
+     <Compile Include="Assets\Scripts\Spine\TransformConstraintData.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SpineTransformConstraint.cs" />
+     <Compile Include="Assets\Scripts\TweakableInt.cs" />
+     <Compile Include="Assets\Scripts\BoosterRunnerContext.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyIntRollingText.cs" />
+     <Compile Include="Assets\Scripts\ARSize.cs" />
+     <Compile Include="Assets\Scripts\TournamentRunner.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SkeletonAnimator.cs" />
+     <Compile Include="Assets\Scripts\UIDrillRewardManager.cs" />
+     <Compile Include="Assets\Scripts\UITournamentManager.cs" />
+     <Compile Include="Assets\Scripts\Spine\PathConstraint.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityARVideo.cs" />
+     <Compile Include="Assets\Scripts\AbstractCreatureController.cs" />
+     <Compile Include="Assets\Scripts\UIGearContentManager.cs" />
+     <Compile Include="Assets\Scripts\DebugCameraOffset.cs" />
+     <Compile Include="Assets\Scripts\AxisAngle.cs" />
+     <Compile Include="Assets\Scripts\BossIndexRunner.cs" />
+     <Compile Include="Assets\Scripts\UIPerkInfoManager.cs" />
+     <Compile Include="Assets\Scripts\IAPType.cs" />
+     <Compile Include="Assets\Scripts\TweakableTabUI.cs" />
+     <Compile Include="Assets\Scripts\ResetAREditor.cs" />
+     <Compile Include="Assets\Scripts\EnabledOnSafeAreaDevice.cs" />
+     <Compile Include="Assets\Scripts\WorldRunner.cs" />
+     <Compile Include="Assets\Scripts\UpgradeRunner.cs" />
+     <Compile Include="Assets\Scripts\UIReview.cs" />
+     <Compile Include="Assets\Scripts\BossBlockController.cs" />
+     <Compile Include="Assets\Scripts\Spine\SkeletonJson.cs" />
+     <Compile Include="Assets\Scripts\SkillsEnumHelper.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SpineBone.cs" />
+     <Compile Include="Assets\Scripts\UISlerpControllerInt.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\SplineTrigger.cs" />
+     <Compile Include="Assets\Scripts\UIMiniMapManager.cs" />
+     <Compile Include="Assets\Scripts\XPromoParser.cs" />
+     <Compile Include="Assets\Scripts\MarshalDirectionalLightEstimate.cs" />
+     <Compile Include="Assets\Scripts\UIGearProfileParentGrayscale.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\TS_Mesh.cs" />
+     <Compile Include="Assets\Scripts\Spine\TrackEntry.cs" />
+     <Compile Include="Assets\Scripts\LevelSkipEnum.cs" />
+     <Compile Include="Assets\Scripts\GearState.cs" />
+     <Compile Include="Assets\Scripts\TweakableCanvas.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SkeletonExtensions.cs" />
+     <Compile Include="Assets\Scripts\UIUpgradesToggle.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\LengthCalculator.cs" />
+     <Compile Include="Assets\Scripts\MapRunner.cs" />
+     <Compile Include="Assets\Scripts\ARMaterialRunner.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SkeletonGraphic.cs" />
+     <Compile Include="Assets\Scripts\PlayFabCloudScriptException.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyBigDoubleRollingText.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\MeshGenerator.cs" />
+     <Compile Include="Assets\Scripts\Unity\AutoTune\AutoTune.cs" />
+     <Compile Include="Assets\Scripts\ReviewAppRunner.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyInteractable.cs" />
+     <Compile Include="Assets\Scripts\AutoPlayToggle.cs" />
+     <Compile Include="Assets\Scripts\Spine\TransformConstraintTimeline.cs" />
+     <Compile Include="Assets\Scripts\BlurRunner.cs" />
+     <Compile Include="Assets\Scripts\Spine\MeshAttachment.cs" />
+     <Compile Include="Assets\Scripts\UITournamentRankRewardParent.cs" />
+     <Compile Include="Assets\Scripts\GiftIds.cs" />
+     <Compile Include="Assets\Scripts\CraftingParser.cs" />
+     <Compile Include="Assets\Scripts\WeightedObject.cs" />
+     <Compile Include="Assets\Scripts\UIGamblingRewardCardParent.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityARHitTestExample.cs" />
+     <Compile Include="Assets\Scripts\Unity\Performance\Result.cs" />
+     <Compile Include="Assets\Scripts\Sequences.cs" />
+     <Compile Include="Assets\Scripts\ToolkitClip.cs" />
+     <Compile Include="Assets\Scripts\ConfigLoader.cs" />
+     <Compile Include="Assets\Scripts\FrequencyCap.cs" />
+     <Compile Include="Assets\Scripts\QualitySettingsRunner.cs" />
+     <Compile Include="Assets\Scripts\PersistentDataPath.cs" />
+     <Compile Include="Assets\Scripts\MathExt.cs" />
+     <Compile Include="Assets\Scripts\AcceptOurTermsService.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\AttachmentTools\AttachmentRegionExtensions.cs" />
+     <Compile Include="Assets\Scripts\PropertyString.cs" />
+     <Compile Include="Assets\Scripts\BundleTierConfig.cs" />
+     <Compile Include="Assets\Scripts\MedalRewardAction.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\WaveformGenerator.cs" />
+     <Compile Include="Assets\Scripts\Utils\serializablePointCloud.cs" />
+     <Compile Include="Assets\Scripts\GearViewRunner.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityARSessionNativeInterface.cs" />
+     <Compile Include="Assets\Scripts\UIGoalContentManager.cs" />
+     <Compile Include="Assets\Scripts\MaterialData.cs" />
+     <Compile Include="Assets\Scripts\Unity\Performance\DefaultProfilerControl.cs" />
+     <Compile Include="Assets\Scripts\RarityEnum.cs" />
+     <Compile Include="Assets\Scripts\Spine\Event.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\WaitForSpineTrackEntryEnd.cs" />
+     <Compile Include="Assets\Scripts\Spine\TransformConstraint.cs" />
+     <Compile Include="Assets\Scripts\BindingManager.cs" />
+     <Compile Include="Assets\Scripts\XPromoRunner.cs" />
+     <Compile Include="Assets\Scripts\GamblingConfig.cs" />
+     <Compile Include="Assets\Scripts\ChunkGeneratingConfig.cs" />
+     <Compile Include="Assets\Scripts\UIPropertySetAsFirstChild.cs" />
+     <Compile Include="Assets\Scripts\AutoPlayButtonHold.cs" />
+     <Compile Include="Assets\Scripts\AudioRunner.cs" />
+     <Compile Include="Assets\Scripts\UIMapTravel.cs" />
+     <Compile Include="Assets\Scripts\DynamiteRunner.cs" />
+     <Compile Include="Assets\Scripts\UIGamblingLevelManager.cs" />
+     <Compile Include="Assets\Scripts\KeyTransaction.cs" />
+     <Compile Include="Assets\Scripts\SceneStarted.cs" />
+     <Compile Include="Assets\Scripts\TextUtils.cs" />
+     <Compile Include="Assets\Scripts\LocalizationService.cs" />
+     <Compile Include="Assets\Scripts\AutoTuneSample.cs" />
+     <Compile Include="Assets\Scripts\GpuPerfEnum.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\SplineAddress.cs" />
+     <Compile Include="Assets\Scripts\ChunkStruct.cs" />
+     <Compile Include="Assets\Scripts\NotificationService.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\SkeletonGhostRenderer.cs" />
+     <Compile Include="Assets\Scripts\UnityARMatrix4x4.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalActionNever.cs" />
+     <Compile Include="Assets\Scripts\Spine\Skeleton.cs" />
+     <Compile Include="Assets\Scripts\IAPService.cs" />
+     <Compile Include="Assets\Scripts\IAPItemContext.cs" />
+     <Compile Include="Assets\Scripts\MaterialNotificationRunner.cs" />
+     <Compile Include="Assets\Scripts\PlayFabError.cs" />
+     <Compile Include="Assets\Scripts\GraphUtil.cs" />
+     <Compile Include="Assets\Scripts\JellyTrapController.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\UI\LetterSpacing.cs" />
+     <Compile Include="Assets\Scripts\TweakableInputFieldUI.cs" />
+     <Compile Include="Assets\Scripts\MeshVertexAOForAR.cs" />
+     <Compile Include="Assets\Scripts\Spine\Triangulator.cs" />
+     <Compile Include="Assets\Scripts\ARPoint.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalParser.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\Primitives\Ellipse.cs" />
+     <Compile Include="Assets\Scripts\AudioRandomSimpleComponent.cs" />
+     <Compile Include="Assets\Scripts\SkillStateFactory.cs" />
+     <Compile Include="Assets\Scripts\EditStep.cs" />
+     <Compile Include="Assets\Scripts\TournamentConfig.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityARKitControl.cs" />
+     <Compile Include="Assets\Scripts\UIGemBoosterPopupImage.cs" />
+     <Compile Include="Assets\Scripts\BossBattleRunner.cs" />
+     <Compile Include="Assets\Scripts\TweakableManager.cs" />
+     <Compile Include="Assets\Scripts\Spine\CurveTimeline.cs" />
+     <Compile Include="Assets\Scripts\AudioGroupComponent.cs" />
+     <Compile Include="Assets\Scripts\Spine\BoneData.cs" />
+     <Compile Include="Assets\Scripts\TweakableInputField.cs" />
+     <Compile Include="Assets\Scripts\MeshGeneratorDelegate.cs" />
+     <Compile Include="Assets\Scripts\TutorialSetActiveOp.cs" />
+     <Compile Include="Assets\Scripts\ChestEnum.cs" />
+     <Compile Include="Assets\Scripts\PassThroughtEncryptor.cs" />
+     <Compile Include="Assets\Scripts\Unity\Performance\IDataSource.cs" />
+     <Compile Include="Assets\Scripts\ChapterListManager.cs" />
+     <Compile Include="Assets\Scripts\TweakableLabelUI.cs" />
+     <Compile Include="Assets\Scripts\Spine\ExposedList`1.cs" />
+     <Compile Include="Assets\Scripts\FloatingText.cs" />
+     <Compile Include="Assets\Scripts\FlooredExt.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\PathGenerator.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\ConnectToEditor.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\ARFaceAnchor.cs" />
+     <Compile Include="Assets\Scripts\ActivateOnEnable.cs" />
+     <Compile Include="Assets\Scripts\UIMiniMapBubbleManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalClaimRunner.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityARUserAnchorComponent.cs" />
+     <Compile Include="Assets\Scripts\AudioBindingManager.cs" />
+     <Compile Include="Assets\Scripts\AutoPlay.cs" />
+     <Compile Include="Assets\Scripts\BerryColor.cs" />
+     <Compile Include="Assets\Scripts\LeaderboardEntry.cs" />
+     <Compile Include="Assets\Scripts\IBlockFinder.cs" />
+     <Compile Include="Assets\Scripts\CraftingMaterialConfig.cs" />
+     <Compile Include="Assets\Scripts\UIGearSetUnlockManager.cs" />
+     <Compile Include="Assets\Scripts\PopupDecision.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\ARPlaneAnchorAlignment.cs" />
+     <Compile Include="Assets\Scripts\Spine\AttachmentTimeline.cs" />
+     <Compile Include="Assets\Scripts\UISendFacebookGift.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SpineEvent.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyCompareTriggerSetActive.cs" />
+     <Compile Include="Assets\Scripts\UISetActiveByPlatform.cs" />
+     <Compile Include="Assets\Scripts\UIChangeBlock.cs" />
+     <Compile Include="Assets\Scripts\UINotificationPermission.cs" />
+     <Compile Include="Assets\Scripts\AlwaysStartBehaviour.cs" />
+     <Compile Include="Assets\Scripts\GamblingParser.cs" />
+     <Compile Include="Assets\Scripts\UIOpenTournamentComingUp.cs" />
+     <Compile Include="Assets\Scripts\LocalizedText.cs" />
+     <Compile Include="Assets\Scripts\HeroUnlockRunner.cs" />
+     <Compile Include="Assets\Scripts\CollectableRewardRunner.cs" />
+     <Compile Include="Assets\Scripts\UISkillUnlockManager.cs" />
+     <Compile Include="Assets\Scripts\UIMapJellyMovementManager.cs" />
+     <Compile Include="Assets\Scripts\Swipeable.cs" />
+     <Compile Include="Assets\Scripts\Economies.cs" />
+     <Compile Include="Assets\Scripts\UIPrestigeGearManager.cs" />
+     <Compile Include="Assets\Scripts\UITournamentRewardsParent.cs" />
+     <Compile Include="Assets\Scripts\Spine\AnimationState.cs" />
+     <Compile Include="Assets\Scripts\UIPropertySetActive.cs" />
+     <Compile Include="Assets\Scripts\BerryTransaction.cs" />
+     <Compile Include="Assets\Scripts\UIPropertySlider.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\SkeletonRenderSeparator.cs" />
+     <Compile Include="Assets\Scripts\UIOpenGiftContentManager.cs" />
+     <Compile Include="Assets\Scripts\ARInstaller.cs" />
+     <Compile Include="Assets\Scripts\SpringConstraint.cs" />
+     <Compile Include="Assets\Scripts\PlaceARWorld.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SkeletonAnimation.cs" />
+     <Compile Include="Assets\Scripts\BiomeStart.cs" />
+     <Compile Include="Assets\Scripts\UISlerpControllerBigDouble.cs" />
+     <Compile Include="Assets\Scripts\UnityARLightData.cs" />
+     <Compile Include="Assets\Scripts\FacebookGift.cs" />
+     <Compile Include="Assets\Scripts\UnityMarshalLightData.cs" />
+     <Compile Include="Assets\Scripts\Utils\serializableUnityARMatrix4x4.cs" />
+     <Compile Include="Assets\Scripts\Leaderboard.cs" />
+     <Compile Include="Assets\Scripts\MainHeroBlockFinder.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\BoneFollower.cs" />
+     <Compile Include="Assets\Scripts\BoneGizmo.cs" />
+     <Compile Include="Assets\Scripts\InitializationManager.cs" />
+     <Compile Include="Assets\Scripts\UIGearProfileParent.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\SlotBlendModes.cs" />
+     <Compile Include="Assets\Scripts\UITutorialSetComplete.cs" />
+     <Compile Include="Assets\Scripts\UIAdjustEditorWorld.cs" />
+     <Compile Include="Assets\Scripts\PrestigeRunner.cs" />
+     <Compile Include="Assets\Scripts\ExplosionForce.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\MeshUtility.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\ConnectionMessageIds.cs" />
+     <Compile Include="Assets\Scripts\AdNetwork.cs" />
+     <Compile Include="Assets\Scripts\IBaseDataConverter.cs" />
+     <Compile Include="Assets\Scripts\Message.cs" />
+     <Compile Include="Assets\Scripts\AUDIOEVENTTRIGGER.cs" />
+     <Compile Include="Assets\Scripts\AdColonyProvider.cs" />
+     <Compile Include="Assets\Scripts\UnityARKitPluginSettings.cs" />
+     <Compile Include="Assets\Scripts\ChapterVariations.cs" />
+     <Compile Include="Assets\Scripts\GameObjectExtensions.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\ResourceUtility.cs" />
+     <Compile Include="Assets\Scripts\Tweakable.cs" />
+     <Compile Include="Assets\Scripts\IAPConfig.cs" />
+     <Compile Include="Assets\Scripts\HeroDamageRunner.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalAction.cs" />
+     <Compile Include="Assets\Scripts\UILeaderboardManager.cs" />
+     <Compile Include="Assets\Scripts\UIFacebookRelink.cs" />
+     <Compile Include="Assets\Scripts\MeshVertexAO.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\EditorHitTest.cs" />
+     <Compile Include="Assets\Scripts\UIIAPBundleProfileParent.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\SkeletonUtilityGroundConstraint.cs" />
+     <Compile Include="Assets\Scripts\UIFriendNodeManager.cs" />
+     <Compile Include="Assets\Scripts\RewardContentHelper.cs" />
+     <Compile Include="Assets\Scripts\AudioComponent.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\SplineUser.cs" />
+     <Compile Include="Assets\Scripts\AdFrequencyConfig.cs" />
+     <Compile Include="Assets\Scripts\AutoPlayButton.cs" />
+     <Compile Include="Assets\Scripts\AnimSpeed.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\SplineMesh.cs" />
+     <Compile Include="Assets\Scripts\LookAtRelative.cs" />
+     <Compile Include="Assets\Scripts\DisableObject.cs" />
+     <Compile Include="Assets\Scripts\UIBlockResourcesManager.cs" />
+     <Compile Include="Assets\Scripts\NewUpdateRunner.cs" />
+     <Compile Include="Assets\Scripts\BoosterParser.cs" />
+     <Compile Include="Assets\Scripts\UIDps.cs" />
+     <Compile Include="Assets\Scripts\PropertyClass.cs" />
+     <Compile Include="Assets\Scripts\UnityARLightEstimate.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\EdgeColliderGenerator.cs" />
+     <Compile Include="Assets\Scripts\Spine\RotateMode.cs" />
+     <Compile Include="Assets\Scripts\LookAt.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\TS_Bounds.cs" />
+     <Compile Include="Assets\Scripts\TweakableBool.cs" />
+     <Compile Include="Assets\Scripts\Big\BigDouble.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalActionTriggered.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalStateFactory.cs" />
+     <Compile Include="Assets\Scripts\AdService.cs" />
+     <Compile Include="Assets\Scripts\internal_UnityARCamera.cs" />
+     <Compile Include="Assets\Scripts\UITournamentsAdditionalRewardsParent.cs" />
+     <Compile Include="Assets\Scripts\UnityARFaceAnchorData.cs" />
+     <Compile Include="Assets\Scripts\Spine\ClippingAttachment.cs" />
+     <Compile Include="Assets\Scripts\IEventListener.cs" />
+     <Compile Include="Assets\Scripts\Spine\TranslateTimeline.cs" />
+     <Compile Include="Assets\Scripts\TierParser.cs" />
+     <Compile Include="Assets\Scripts\UpgradeEnum.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalCollectionRunner.cs" />
+     <Compile Include="Assets\Scripts\BoosterRunner.cs" />
+     <Compile Include="Assets\Scripts\EnableWhenActive.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalRunnerContext.cs" />
+     <Compile Include="Assets\Scripts\Spine\PathConstraintMixTimeline.cs" />
+     <Compile Include="Assets\Scripts\BlockType.cs" />
+     <Compile Include="Assets\Scripts\Coroutiner.cs" />
+     <Compile Include="Assets\Scripts\AndroidFilePaths.cs" />
+     <Compile Include="Assets\Scripts\AttributionID.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyCompareEnum.cs" />
+     <Compile Include="Assets\Scripts\BiomeParser.cs" />
+     <Compile Include="Assets\Scripts\EmptySplineHandler.cs" />
+     <Compile Include="Assets\Scripts\Unity\AutoTune\AutoTuneMeta.cs" />
+     <Compile Include="Assets\Scripts\Spine\SkeletonClipping.cs" />
+     <Compile Include="Assets\Scripts\DisableAfter.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SpinePathConstraint.cs" />
+     <Compile Include="Assets\Scripts\AudioEventTriggerOnDisable.cs" />
+     <Compile Include="Assets\Scripts\RewardParser.cs" />
+     <Compile Include="Assets\Scripts\BoosterRewardAmountParser.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\SplineFollower.cs" />
+     <Compile Include="Assets\Scripts\IBaseSettings.cs" />
+     <Compile Include="Assets\Scripts\Spine\MixDirection.cs" />
+     <Compile Include="Assets\Scripts\UITutorialMultiStringSetActive.cs" />
+     <Compile Include="Assets\Scripts\UIMapNodeParent.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\TransformModule.cs" />
+     <Compile Include="Assets\Scripts\PerkUnlockedInfo.cs" />
+     <Compile Include="Assets\Scripts\UISkillProfileParent3D.cs" />
+     <Compile Include="Assets\Scripts\GamblingInstaller.cs" />
+     <Compile Include="Assets\Scripts\CircularBuffer.cs" />
+     <Compile Include="Assets\Scripts\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\Scripts\AudioRandomComponent.cs" />
+     <Compile Include="Assets\Scripts\FundRunner.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\DoubleBuffered`1 where T.cs" />
+     <Compile Include="Assets\Scripts\ARRunner.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyCompareSetActive.cs" />
+     <Compile Include="Assets\Scripts\AnimState.cs" />
+     <Compile Include="Assets\Scripts\GamblingState.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityARGeneratePlane.cs" />
+     <Compile Include="Assets\Scripts\GemRewardAction.cs" />
+     <Compile Include="Assets\Scripts\ActivateRandomOnEnable.cs" />
+     <Compile Include="Assets\Scripts\SkillParser.cs" />
+     <Compile Include="Assets\Scripts\SwipeInput.cs" />
+     <Compile Include="Assets\Scripts\DrJellyController.cs" />
+     <Compile Include="Assets\Scripts\FrameRateCounter.cs" />
+     <Compile Include="Assets\Scripts\Spine\EventTimeline.cs" />
+     <Compile Include="Assets\Scripts\DrJellyRunner.cs" />
+     <Compile Include="Assets\Scripts\Spine\EventQueue.cs" />
+     <Compile Include="Assets\Scripts\IAPRunner.cs" />
+     <Compile Include="Assets\Scripts\HeroNotificaitonRunner.cs" />
+     <Compile Include="Assets\Scripts\UIHeroMapProfileParent.cs" />
+     <Compile Include="Assets\Scripts\Spine\Bone.cs" />
+     <Compile Include="Assets\Scripts\PlayFabAccountIds.cs" />
+     <Compile Include="Assets\Scripts\MapRunnerContext.cs" />
+     <Compile Include="Assets\Scripts\FacebookDataHandler.cs" />
+     <Compile Include="Assets\Scripts\AdMobEmptyAdProvider.cs" />
+     <Compile Include="Assets\Scripts\GearSet.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\AttachmentTools\SpriteAtlasRegionExtensions.cs" />
+     <Compile Include="Assets\Scripts\TweakableIntUI.cs" />
+     <Compile Include="Assets\Scripts\XPromoButton.cs" />
+     <Compile Include="Assets\Scripts\GearSetRunnerContext.cs" />
+     <Compile Include="Assets\Scripts\IEvent.cs" />
+     <Compile Include="Assets\Scripts\GamblingBindingManager.cs" />
+     <Compile Include="Assets\Scripts\AdLoadRequest.cs" />
+     <Compile Include="Assets\Scripts\ResetScrollRectPosOnEnable.cs" />
+     <Compile Include="Assets\Scripts\HeroParser.cs" />
+     <Compile Include="Assets\Scripts\UILevelSkipRewardsParent.cs" />
+     <Compile Include="Assets\Scripts\LevelSkipRunner.cs" />
+     <Compile Include="Assets\Scripts\ARUserAnchor.cs" />
+     <Compile Include="Assets\Scripts\UICompanionEvolveManager.cs" />
+     <Compile Include="Assets\Scripts\BonusTypeHelper.cs" />
+     <Compile Include="Assets\Scripts\Spine\TextureWrap.cs" />
+     <Compile Include="Assets\Scripts\GearSetGearRunnerContext.cs" />
+     <Compile Include="Assets\Scripts\BaseData.cs" />
+     <Compile Include="Assets\Scripts\PressButtonWithDelay.cs" />
+     <Compile Include="Assets\Scripts\AudioEventListener.cs" />
+     <Compile Include="Assets\Scripts\DrillConfig.cs" />
+     <Compile Include="Assets\Scripts\PlayerData.cs" />
+     <Compile Include="Assets\Scripts\ListExtensions.cs" />
+     <Compile Include="Assets\Scripts\AdPlacement.cs" />
+     <Compile Include="Assets\Scripts\ProfileStruct.cs" />
+     <Compile Include="Assets\Scripts\UIBoosterManager.cs" />
+     <Compile Include="Assets\Scripts\JSONConverter.cs" />
+     <Compile Include="Assets\Scripts\PropertyInt.cs" />
+     <Compile Include="Assets\Scripts\AnimationStateMachine.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityARUtility.cs" />
+     <Compile Include="Assets\Scripts\Spine\SkeletonBinary.cs" />
+     <Compile Include="Assets\Scripts\UIChangeLanguage.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\ObjectBender.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\LinearAlgebraUtility.cs" />
+     <Compile Include="Assets\Scripts\ZoneData.cs" />
+     <Compile Include="Assets\Scripts\Touchable.cs" />
+     <Compile Include="Assets\Scripts\GoldBoosterRunnerContext.cs" />
+     <Compile Include="Assets\Scripts\Spine\SkeletonExtensions.cs" />
+     <Compile Include="Assets\Scripts\UITutorialSetInteractable.cs" />
+     <Compile Include="Assets\Scripts\ZoneMapping.cs" />
+     <Compile Include="Assets\Scripts\Spine\TwoColorTimeline.cs" />
+     <Compile Include="Assets\Scripts\GiftRewardRunner.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\SplineRenderer.cs" />
+     <Compile Include="Assets\Scripts\Spine\Skin.cs" />
+     <Compile Include="Assets\Scripts\UnityARCameraNearFar.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\AttachmentTools\AttachmentCloneExtensions.cs" />
+     <Compile Include="Assets\Scripts\Spine\IkConstraintData.cs" />
+     <Compile Include="Assets\Scripts\Spine\SpacingMode.cs" />
+     <Compile Include="Assets\Scripts\StartAdventure.cs" />
+     <Compile Include="Assets\Scripts\BlockController.cs" />
+     <Compile Include="Assets\Scripts\Spine\ShearTimeline.cs" />
+     <Compile Include="Assets\Scripts\UIFocusParentVerticalGroup.cs" />
+     <Compile Include="Assets\Scripts\PerkMilestoneParser.cs" />
+     <Compile Include="Assets\Scripts\CameraShake.cs" />
+     <Compile Include="Assets\Scripts\randomGameObject.cs" />
+     <Compile Include="Assets\Scripts\BundleTierParser.cs" />
+     <Compile Include="Assets\Scripts\PropertyFormerlyAs.cs" />
+     <Compile Include="Assets\Scripts\AmountAndWeight.cs" />
+     <Compile Include="Assets\Scripts\CraftingMaterialParser.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\MaterialsTextureLoader.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyLongText.cs" />
+     <Compile Include="Assets\Scripts\Spine\VertexAttachment.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\IO\SplineParser.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityARPlaneDetection.cs" />
+     <Compile Include="Assets\Scripts\Spine\TextureFilter.cs" />
+     <Compile Include="Assets\Scripts\UIPerkProfileParentGrayscale.cs" />
+     <Compile Include="Assets\Scripts\BronzeChestRewardAction.cs" />
+     <Compile Include="Assets\Scripts\HeroVisibleCountRunner.cs" />
+     <Compile Include="Assets\Scripts\AudioEventTriggerOnEnable.cs" />
+     <Compile Include="Assets\Scripts\Spine\SkeletonData.cs" />
+     <Compile Include="Assets\Scripts\SlerpTarget.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\Node.cs" />
+     <Compile Include="Assets\Scripts\PopupMessage.cs" />
+     <Compile Include="Assets\Scripts\UITournamentTrophyProgressManager.cs" />
+     <Compile Include="Assets\Scripts\CraftingRequirement.cs" />
+     <Compile Include="Assets\Scripts\Spine\SlotData.cs" />
+     <Compile Include="Assets\Scripts\DebugException.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\ARTrackingStateReason.cs" />
+     <Compile Include="Assets\Scripts\UIObjectTapped.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SpineSlot.cs" />
+     <Compile Include="Assets\Scripts\UIGiftRewardContentManager.cs" />
+     <Compile Include="Assets\Scripts\UITournamentProgressParent.cs" />
+     <Compile Include="Assets\Scripts\IAPBundleRunner.cs" />
+     <Compile Include="Assets\Scripts\SkillRewardAction.cs" />
+     <Compile Include="Assets\Scripts\DrJellyStateEnum.cs" />
+     <Compile Include="Assets\Scripts\UIFacebookProfile.cs" />
+     <Compile Include="Assets\Scripts\LeaderboardEntryContext.cs" />
+     <Compile Include="Assets\Scripts\IPlayableAudioComponent.cs" />
+     <Compile Include="Assets\Scripts\TreeSwinger.cs" />
+     <Compile Include="Assets\Scripts\CraftingConfig.cs" />
+     <Compile Include="Assets\Scripts\MapNodeRunnerContext.cs" />
+     <Compile Include="Assets\Scripts\Spine\Timeline.cs" />
+     <Compile Include="Assets\Scripts\AndroidDeviceID.cs" />
+     <Compile Include="Assets\Scripts\PngTexture.cs" />
+     <Compile Include="Assets\Scripts\UILanguageButton.cs" />
+     <Compile Include="Assets\Scripts\UIPollCameraPermission.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\WaitForSpineAnimationComplete.cs" />
+     <Compile Include="Assets\Scripts\OneAtATimeButton.cs" />
+     <Compile Include="Assets\Scripts\XPromoAction.cs" />
+     <Compile Include="Assets\Scripts\AmountAndWeightParser.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\Type.cs" />
+     <Compile Include="Assets\Scripts\ProfileStamp.cs" />
+     <Compile Include="Assets\Scripts\ARTextureHandles.cs" />
+     <Compile Include="Assets\Scripts\LevelEditorControls.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalActionBigDouble.cs" />
+     <Compile Include="Assets\Scripts\SkillState.cs" />
+     <Compile Include="Assets\Scripts\Spine\DrawOrderTimeline.cs" />
+     <Compile Include="Assets\Scripts\UIDevelopInstantiate.cs" />
+     <Compile Include="Assets\Scripts\UIPrestigeManager.cs" />
+     <Compile Include="Assets\Scripts\ConfigCollector.cs" />
+     <Compile Include="Assets\Scripts\GameObjectAndAction.cs" />
+     <Compile Include="Assets\Scripts\ARKitFaceTrackingConfiguration.cs" />
+     <Compile Include="Assets\Scripts\Spine\Atlas.cs" />
+     <Compile Include="Assets\Scripts\UIPopupDecision.cs" />
+     <Compile Include="Assets\Scripts\AdColonyEmptyAdProvider.cs" />
+     <Compile Include="Assets\Scripts\UITutorialSetInteractableButton.cs" />
+     <Compile Include="Assets\Scripts\Spine\AttachmentLoader.cs" />
+     <Compile Include="Assets\Scripts\UnityPointCloudExample.cs" />
+     <Compile Include="Assets\Scripts\PopupDialog.cs" />
+     <Compile Include="Assets\Scripts\UnityARKitLightManager.cs" />
+     <Compile Include="Assets\Scripts\UISetActive.cs" />
+     <Compile Include="Assets\Scripts\GpuPerfParser.cs" />
+     <Compile Include="Assets\Scripts\GearSetRunner.cs" />
+     <Compile Include="Assets\Scripts\UIMapJellyIntroParent.cs" />
+     <Compile Include="Assets\Scripts\FacebookProvider.cs" />
+     <Compile Include="Assets\Scripts\VegetationController.cs" />
+     <Compile Include="Assets\Scripts\Spine\PointAttachment.cs" />
+     <Compile Include="Assets\Scripts\ChestRewardConfig.cs" />
+     <Compile Include="Assets\Scripts\WelcomeBackRunner.cs" />
+     <Compile Include="Assets\Scripts\Debug.cs" />
+     <Compile Include="Assets\Scripts\UIGoldBoosterManager.cs" />
+     <Compile Include="Assets\Scripts\ProfileEnum.cs" />
+     <Compile Include="Assets\Scripts\UIGoldBoosterPopupImage.cs" />
+     <Compile Include="Assets\Scripts\SuccessBossParent.cs" />
+     <Compile Include="Assets\Scripts\AudioEventTriggerOnAwake.cs" />
+     <Compile Include="Assets\Scripts\UIGoalProfileParent.cs" />
+     <Compile Include="Assets\Scripts\HammerTimeRunner.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\ParticleController.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\ExtrudeMesh.cs" />
+     <Compile Include="Assets\Scripts\DestroyAfter.cs" />
+     <Compile Include="Assets\Scripts\TournamentTier.cs" />
+     <Compile Include="Assets\Scripts\Spine\PathConstraintSpacingTimeline.cs" />
+     <Compile Include="Assets\Scripts\ConnectivityService.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\SkeletonRagdoll.cs" />
+     <Compile Include="Assets\Scripts\HeroState.cs" />
+     <Compile Include="Assets\Scripts\HeroEvolveRunner.cs" />
+     <Compile Include="Assets\Scripts\UIPerkUnlocked.cs" />
+     <Compile Include="Assets\Scripts\UnityEmptyAdProvider.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SpineAtlasRegion.cs" />
+     <Compile Include="Assets\Scripts\UIRewardCollector.cs" />
+     <Compile Include="Assets\Scripts\SlerpTargetEnum.cs" />
+     <Compile Include="Assets\Scripts\AORunner.cs" />
+     <Compile Include="Assets\Scripts\Spine\AttachmentType.cs" />
+     <Compile Include="Assets\Scripts\GameSettings.cs" />
+     <Compile Include="Assets\Scripts\TapBoostRunner.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\SkeletonRagdoll2D.cs" />
+     <Compile Include="Assets\Scripts\ChestTransaction.cs" />
+     <Compile Include="Assets\Scripts\PropertyContext.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\Primitives\Ngon.cs" />
+     <Compile Include="Assets\Scripts\UIHeroProfileParent.cs" />
+     <Compile Include="Assets\Scripts\ActivateOnDisable.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalConfig.cs" />
+     <Compile Include="Assets\Scripts\EntityPoolManager.cs" />
+     <Compile Include="Assets\Scripts\AudioObject.cs" />
+     <Compile Include="Assets\Scripts\FrequencyCapOfStartingMinute.cs" />
+     <Compile Include="Assets\Scripts\UnityZoneProvider.cs" />
+     <Compile Include="Assets\Scripts\CameraMoveRunner.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalState.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\MeshGenerator.cs" />
+     <Compile Include="Assets\Scripts\UIChestContentManager.cs" />
+     <Compile Include="Assets\Scripts\CollectableSpot.cs" />
+     <Compile Include="Assets\Scripts\JSONTemplates.cs" />
+     <Compile Include="Assets\Scripts\GearRunnerContext.cs" />
+     <Compile Include="Assets\Scripts\FlooredProvidersFactory.cs" />
+     <Compile Include="Assets\Scripts\CurrentBossParent.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\SplineComputer.cs" />
+     <Compile Include="Assets\Scripts\UIMapManager.cs" />
+     <Compile Include="Assets\Scripts\IGameAnalyticsParameters.cs" />
+     <Compile Include="Assets\Scripts\PlayFabService.cs" />
+     <Compile Include="Assets\Scripts\PerkMilestoneRunner.cs" />
+     <Compile Include="Assets\Scripts\XPromoConfig.cs" />
+     <Compile Include="Assets\Scripts\SplineReachHandler.cs" />
+     <Compile Include="Assets\Scripts\UIOpenFacebookGift.cs" />
+     <Compile Include="Assets\Scripts\BoostOperatorEnum.cs" />
+     <Compile Include="Assets\Scripts\UIIAPProfileParent.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\CustomOffsetModule.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\ISkeletonAnimation.cs" />
+     <Compile Include="Assets\Scripts\PointCloudParticleExample.cs" />
+     <Compile Include="Assets\Scripts\HeroConfig.cs" />
+     <Compile Include="Assets\Scripts\DisposableSingleton.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\SkeletonUtilityEyeConstraint.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\ARFaceGeometry.cs" />
+     <Compile Include="Assets\Scripts\Crc32.cs" />
+     <Compile Include="Assets\Scripts\UnityAdProvider.cs" />
+     <Compile Include="Assets\Scripts\Basics.cs" />
+     <Compile Include="Assets\Scripts\IBlock.cs" />
+     <Compile Include="Assets\Scripts\GearConfig.cs" />
+     <Compile Include="Assets\Scripts\FacebookEmptyAdProvider.cs" />
+     <Compile Include="Assets\Scripts\TierConfig.cs" />
+     <Compile Include="Assets\Scripts\HeroRunnerContext.cs" />
+     <Compile Include="Assets\Scripts\MiniJSON\Json.cs" />
+     <Compile Include="Assets\Scripts\VersionMismatchException.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityARAnchorManager.cs" />
+     <Compile Include="Assets\Scripts\UnityARFaceGeometry.cs" />
+     <Compile Include="Assets\Scripts\SkillCollectionRunner.cs" />
+     <Compile Include="Assets\Scripts\CloudSyncRunner.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\IO\CSV.cs" />
+     <Compile Include="Assets\Scripts\GooglePlayServicesChecker.cs" />
+     <Compile Include="Assets\Scripts\AndroidQuitButton.cs" />
+     <Compile Include="Assets\Scripts\HeroRunner.cs" />
+     <Compile Include="Assets\Scripts\AudioEventTriggerOnDestroy.cs" />
+     <Compile Include="Assets\Scripts\IAPItemCollectionRunner.cs" />
+     <Compile Include="Assets\Scripts\BlockResourceRunner.cs" />
+     <Compile Include="Assets\Scripts\UIPrestigeCreatureContentManager.cs" />
+     <Compile Include="Assets\Scripts\AdProviderDelegate.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityARAmbient.cs" />
+     <Compile Include="Assets\Scripts\Utils\ObjectSerializationExtension.cs" />
+     <Compile Include="Assets\Scripts\ChestParser.cs" />
+     <Compile Include="Assets\Scripts\DamageRunner.cs" />
+     <Compile Include="Assets\Scripts\GearBoostStruct.cs" />
+     <Compile Include="Assets\Scripts\UIGearProfileParent3d.cs" />
+     <Compile Include="Assets\Scripts\StringCache.cs" />
+     <Compile Include="Assets\Scripts\RijndaelEncryptor.cs" />
+     <Compile Include="Assets\Scripts\UIGearSalvageManager.cs" />
+     <Compile Include="Assets\Scripts\Utils\serializableUnityARCamera.cs" />
+     <Compile Include="Assets\Scripts\UIPopupOnEnableManager.cs" />
+     <Compile Include="Assets\Scripts\GearStateFactory.cs" />
+     <Compile Include="Assets\Scripts\Spine\AtlasPage.cs" />
+     <Compile Include="Assets\Scripts\UpdateBonesDelegate.cs" />
+     <Compile Include="Assets\Scripts\NetworkConfigParser.cs" />
+     <Compile Include="Assets\Scripts\SimplePoolManager.cs" />
+     <Compile Include="Assets\Scripts\Spine\IkConstraintTimeline.cs" />
+     <Compile Include="Assets\Scripts\UICreaturePanelManager.cs" />
+     <Compile Include="Assets\Scripts\UIBossSuccessManager.cs" />
+     <Compile Include="Assets\Scripts\Spine\PathConstraintData.cs" />
+     <Compile Include="Assets\Scripts\UIToggleAudio.cs" />
+     <Compile Include="Assets\Scripts\TSVParser.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\ObjectSequence`1.cs" />
+     <Compile Include="Assets\Scripts\TestTextureGenerator.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\SplinePositioner.cs" />
+     <Compile Include="Assets\Scripts\AndroidNative.cs" />
+     <Compile Include="Assets\Scripts\UnityVideoParams.cs" />
+     <Compile Include="Assets\Scripts\IAPProductEnum.cs" />
+     <Compile Include="Assets\Scripts\EnableObjectsRunner.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\IAnimationStateComponent.cs" />
+     <Compile Include="Assets\Scripts\UIFps.cs" />
+     <Compile Include="Assets\Scripts\UIMoveMapCamera.cs" />
+     <Compile Include="Assets\Scripts\MeshColliderCheck.cs" />
+     <Compile Include="Assets\Scripts\UIIAPRewardManager.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyBase.cs" />
+     <Compile Include="Assets\Scripts\AudioController.cs" />
+     <Compile Include="Assets\Scripts\ChunkGenerator.cs" />
+     <Compile Include="Assets\Scripts\L.cs" />
+     <Compile Include="Assets\Scripts\MessageState.cs" />
+     <Compile Include="Assets\Scripts\ARLightEstimate.cs" />
+     <Compile Include="Assets\Scripts\ChunkRunner.cs" />
+     <Compile Include="Assets\Scripts\Spine\SkeletonBounds.cs" />
+     <Compile Include="Assets\Scripts\NotificationRunner.cs" />
+     <Compile Include="Assets\Scripts\BiomeConfig.cs" />
+     <Compile Include="Assets\Scripts\ServerTimeService.cs" />
+     <Compile Include="Assets\Scripts\FacebookRunner.cs" />
+     <Compile Include="Assets\Scripts\FacebookAPIService.cs" />
+     <Compile Include="Assets\Scripts\ParameterRunner.cs" />
+     <Compile Include="Assets\Scripts\Spine\PathAttachment.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityARSessionRunOption.cs" />
+     <Compile Include="Assets\Scripts\SaveLoad.cs" />
+     <Compile Include="Assets\Scripts\PerkMilestoneConfig.cs" />
+     <Compile Include="Assets\Scripts\SceneLoader.cs" />
+     <Compile Include="Assets\Scripts\IAPStarted.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\Trigger.cs" />
+     <Compile Include="Assets\Scripts\Spine\ColorTimeline.cs" />
+     <Compile Include="Assets\Scripts\UIGearInfoManager.cs" />
+     <Compile Include="Assets\Scripts\UIBossRewardPanel.cs" />
+     <Compile Include="Assets\Scripts\Spine\TextureLoader.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyTriggerSetActive.cs" />
+     <Compile Include="Assets\Scripts\NotEnoughGemsRunner.cs" />
+     <Compile Include="Assets\Scripts\ZoneAndFloor.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SpineAttachment.cs" />
+     <Compile Include="Assets\Scripts\AdProvider.cs" />
+     <Compile Include="Assets\Scripts\MeshGeneratorBuffers.cs" />
+     <Compile Include="Assets\Scripts\AdNetworkCachers.cs" />
+     <Compile Include="Assets\Scripts\UIHeroCardManager.cs" />
+     <Compile Include="Assets\Scripts\UIHeroMiniMapProfileParent.cs" />
+     <Compile Include="Assets\Scripts\RelicRewardAction.cs" />
+     <Compile Include="Assets\Scripts\AdMobCacher.cs" />
+     <Compile Include="Assets\Scripts\Spine\BlendMode.cs" />
+     <Compile Include="Assets\Scripts\GearUnlockConfig.cs" />
+     <Compile Include="Assets\Scripts\ConfigEnum.cs" />
+     <Compile Include="Assets\Scripts\IAPParser.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\Primitives\Spiral.cs" />
+     <Compile Include="Assets\Scripts\UISendGiftContentManager.cs" />
+     <Compile Include="Assets\Scripts\Encryptor.cs" />
+     <Compile Include="Assets\Scripts\ARKitSessionConfiguration.cs" />
+     <Compile Include="Assets\Scripts\SilverChestRewardAction.cs" />
+     <Compile Include="Assets\Scripts\UIPopupManager.cs" />
+     <Compile Include="Assets\Scripts\EconomyHelpers.cs" />
+     <Compile Include="Assets\Scripts\Unity\Performance\PerfRecorder.cs" />
+     <Compile Include="Assets\Scripts\BonusTypeEnum.cs" />
+     <Compile Include="Assets\Scripts\EnableEnum.cs" />
+     <Compile Include="Assets\Scripts\DontDestroyOnLoad.cs" />
+     <Compile Include="Assets\Scripts\BaseDataConverterImpl.cs" />
+     <Compile Include="Assets\Scripts\IReleasable.cs" />
+     <Compile Include="Assets\Scripts\AddCoinRewardAction.cs" />
+     <Compile Include="Assets\Scripts\UIFacebook.cs" />
+     <Compile Include="Assets\Scripts\RXExt.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\PolygonColliderGenerator.cs" />
+     <Compile Include="Assets\Scripts\UIMapBubbleManager.cs" />
+     <Compile Include="Assets\Scripts\FakeFundRunner.cs" />
+     <Compile Include="Assets\Scripts\PopupRateUs.cs" />
+     <Compile Include="Assets\Scripts\WeightedObjecExt.cs" />
+     <Compile Include="Assets\Scripts\RollingBigDouble.cs" />
+     <Compile Include="Assets\Scripts\UIBundleForceOpenManager.cs" />
+     <Compile Include="Assets\Scripts\PropertyFloat.cs" />
+     <Compile Include="Assets\Scripts\TweakableFloat.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\ARTrackingState.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\Primitives\Capsule.cs" />
+     <Compile Include="Assets\Scripts\TweakableFloatUI.cs" />
+     <Compile Include="Assets\Scripts\FacebookCacher.cs" />
+     <Compile Include="Assets\Scripts\GoldBoosterRunner.cs" />
+     <Compile Include="Assets\Scripts\BlockSpawnPoint.cs" />
+     <Compile Include="Assets\Scripts\Debuggable.cs" />
+     <Compile Include="Assets\Scripts\Spine\MixPose.cs" />
+     <Compile Include="Assets\Scripts\UIIAPBundle.cs" />
+     <Compile Include="Assets\Scripts\UIMapCloudParent.cs" />
+     <Compile Include="Assets\Scripts\ChunkGeneratingParser.cs" />
+     <Compile Include="Assets\Scripts\UIAlwaysStartPropertyBase.cs" />
+     <Compile Include="Assets\Scripts\UIPropertySecondsText.cs" />
+     <Compile Include="Assets\Scripts\Spine\Slot.cs" />
+     <Compile Include="Assets\Scripts\SkillsEnum.cs" />
+     <Compile Include="Assets\Scripts\PrestigeOrder.cs" />
+     <Compile Include="Assets\Scripts\Spine\Format.cs" />
+     <Compile Include="Assets\Scripts\Utils\SerializableVector4.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\SkeletonPartsRenderer.cs" />
+     <Compile Include="Assets\Scripts\XPromoStoreButton.cs" />
+     <Compile Include="Assets\Scripts\BoosterEnum.cs" />
+     <Compile Include="Assets\Scripts\UIBackpackResourcesManager.cs" />
+     <Compile Include="Assets\Scripts\BundleEnum.cs" />
+     <Compile Include="Assets\Scripts\LeaderboardRunner.cs" />
+     <Compile Include="Assets\Scripts\GearMilestoneRunner.cs" />
+     <Compile Include="Assets\Scripts\FBPlayer.cs" />
+     <Compile Include="Assets\Scripts\UICompanionInfoManager.cs" />
+     <Compile Include="Assets\Scripts\MiniGameRunner.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\AttachmentTools\SkinExtensions.cs" />
+     <Compile Include="Assets\Scripts\ARHitTestResult.cs" />
+     <Compile Include="Assets\Scripts\AdMobZoneProvider.cs" />
+     <Compile Include="Assets\Scripts\PiecewiseLinearFunction.cs" />
+     <Compile Include="Assets\Scripts\GearCategory.cs" />
+     <Compile Include="Assets\Scripts\UIGoalNotificationManager.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\ARHitTestResultType.cs" />
+     <Compile Include="Assets\Scripts\JSONExtracting.cs" />
+     <Compile Include="Assets\Scripts\UIBoss.cs" />
+     <Compile Include="Assets\Scripts\UITournamentTierContext.cs" />
+     <Compile Include="Assets\Scripts\BiomeVariations.cs" />
+     <Compile Include="Assets\Scripts\FortunePodResult.cs" />
+     <Compile Include="Assets\Scripts\UnityStandardAssets\ImageEffects\BlurOptimized.cs" />
+     <Compile Include="Assets\Scripts\HeroStateFactory.cs" />
+     <Compile Include="Assets\Scripts\FlooredAdProvider.cs" />
+     <Compile Include="Assets\Scripts\ParameterRunnerContext.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\Primitives\Line.cs" />
+     <Compile Include="Assets\Scripts\Spine\EventData.cs" />
+     <Compile Include="Assets\Scripts\UnityARHitTestResult.cs" />
+     <Compile Include="Assets\Scripts\AORunnerForAR.cs" />
+     <Compile Include="Assets\Scripts\MissingRelicsToGems.cs" />
+     <Compile Include="Assets\Scripts\ARTutorialRunner.cs" />
+     <Compile Include="Assets\Scripts\UIActiveBundleSetActive.cs" />
+     <Compile Include="Assets\Scripts\ChestRunner.cs" />
+     <Compile Include="Assets\Scripts\AutoMineRunner.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyActivate.cs" />
+     <Compile Include="Assets\Scripts\ValueBin.cs" />
+     <Compile Include="Assets\Scripts\Spine\AtlasRegion.cs" />
+     <Compile Include="Assets\Scripts\ButtonHold.cs" />
+     <Compile Include="Assets\Scripts\GpuPerfData.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\Primitives\RoundedRectangle.cs" />
+     <Compile Include="Assets\Scripts\UIBundleSetActive.cs" />
+     <Compile Include="Assets\Scripts\Spine\TimelineType.cs" />
+     <Compile Include="Assets\Scripts\IAPTransactionState.cs" />
+     <Compile Include="Assets\Scripts\UIIngameNotifications.cs" />
+     <Compile Include="Assets\Scripts\AfterPrestigeFundCollector.cs" />
+     <Compile Include="Assets\Scripts\AdMobFlooredProvider.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\LightDataType.cs" />
+     <Compile Include="Assets\Scripts\Spine\RotateTimeline.cs" />
+     <Compile Include="Assets\Scripts\ResetRunner.cs" />
+     <Compile Include="Assets\Scripts\Spine\MathUtils.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\Primitives\Rectangle.cs" />
+     <Compile Include="Assets\Scripts\RestartSpineAnimOnEnable.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\SplineResult.cs" />
+     <Compile Include="Assets\Scripts\CollectibleAnimation.cs" />
+     <Compile Include="Assets\Scripts\UISkillInfoManager.cs" />
+     <Compile Include="Assets\Scripts\AudioEvent.cs" />
+     <Compile Include="Assets\Scripts\UIPropertySliderWithMovement.cs" />
+     <Compile Include="Assets\Scripts\ARBindingManager.cs" />
+     <Compile Include="Assets\Scripts\Spine\BoundingBoxAttachment.cs" />
+     <Compile Include="Assets\Scripts\UnityARCamera.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SpineMesh.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\MeshRendererBuffers.cs" />
+     <Compile Include="Assets\Scripts\Spine\Attachment.cs" />
+     <Compile Include="Assets\Scripts\UILevelSkip.cs" />
+     <Compile Include="Assets\Scripts\UITutorialActivate.cs" />
+     <Compile Include="Assets\Scripts\SkillRunnerContext.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\TS_Transform.cs" />
+     <Compile Include="Assets\Scripts\UIIAPButtons.cs" />
+     <Compile Include="Assets\Scripts\AR3DOFCameraManager.cs" />
+     <Compile Include="Assets\Scripts\TournamentParser.cs" />
+     <Compile Include="Assets\Scripts\SkillRunner.cs" />
+     <Compile Include="Assets\Scripts\Platform.cs" />
+     <Compile Include="Assets\Scripts\HeroDamage.cs" />
+     <Compile Include="Assets\Scripts\AudioVolumeHack.cs" />
+     <Compile Include="Assets\Scripts\Singleton.cs" />
+     <Compile Include="Assets\Scripts\UIWelcomeBack.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\SkeletonGhost.cs" />
+     <Compile Include="Assets\Scripts\BiomeListManager.cs" />
+     <Compile Include="Assets\Scripts\PropertyManager.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SkeletonRenderer.cs" />
+     <Compile Include="Assets\Scripts\AdFrequencyParser.cs" />
+     <Compile Include="Assets\Scripts\CoroutinerInstance.cs" />
+     <Compile Include="Assets\Scripts\AudioObjectSettings.cs" />
+     <Compile Include="Assets\Scripts\UIAudioSettings.cs" />
+     <Compile Include="Assets\Scripts\GamblingAvailableRunner.cs" />
+     <Compile Include="Assets\Scripts\AudioEventTriggerOnStart.cs" />
+     <Compile Include="Assets\Scripts\Unity\AutoTune\MiniJSON\Json.cs" />
+     <Compile Include="Assets\Scripts\AudioAssetLoader.cs" />
+     <Compile Include="Assets\Scripts\ForceUpdateService.cs" />
+     <Compile Include="Assets\Scripts\UIGearProfileParentBundles3d.cs" />
+     <Compile Include="Assets\Scripts\GemTransaction.cs" />
+     <Compile Include="Assets\Scripts\UIGamblingButtons.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\BoneFollowerGraphic.cs" />
+     <Compile Include="Assets\Scripts\MathUtils.cs" />
+     <Compile Include="Assets\Scripts\PredictableRandom.cs" />
+     <Compile Include="Assets\Scripts\PersistentSingleton.cs" />
+     <Compile Include="Assets\Scripts\Spine\Json.cs" />
+     <Compile Include="Assets\Scripts\GoldBoosterCollectionRunner.cs" />
+     <Compile Include="Assets\Scripts\UISettings.cs" />
+     <Compile Include="Assets\Scripts\Spine\IConstraint.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\TubeGenerator.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SkeletonUtilityBone.cs" />
+     <Compile Include="Assets\Scripts\FakeFallForBlock.cs" />
+     <Compile Include="Assets\Scripts\UIHeroInfoParent.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalTask.cs" />
+     <Compile Include="Assets\Scripts\RewardFactory.cs" />
+     <Compile Include="Assets\Scripts\UIDrill.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\SkeletonRendererCustomMaterials.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\UIPerkProfileParent.cs" />
+     <Compile Include="Assets\Scripts\AndroidBackButton.cs" />
+     <Compile Include="Assets\Scripts\BoosterConfig.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SkeletonDataAsset.cs" />
+     <Compile Include="Assets\Scripts\AudioMixParameter.cs" />
+     <Compile Include="Assets\Scripts\UICraftingUpgradeManager.cs" />
+     <Compile Include="Assets\Scripts\UnityARAnchorData.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SpineIkConstraint.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\SubMessageIds.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SpineAnimation.cs" />
+     <Compile Include="Assets\Scripts\DataHelper.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityARDirectionalLightEstimate.cs" />
+     <Compile Include="Assets\Scripts\MainInstaller.cs" />
+     <Compile Include="Assets\Scripts\TweakableManagerUI.cs" />
+     <Compile Include="Assets\Scripts\UIMapMoveJelly.cs" />
+     <Compile Include="Assets\Scripts\BonusMultConfig.cs" />
+     <Compile Include="Assets\Scripts\RollingFloat.cs" />
+     <Compile Include="Assets\Scripts\Spine\TransformMode.cs" />
+     <Compile Include="Assets\Scripts\SafeAreaAnchors.cs" />
+     <Compile Include="Assets\Scripts\UICloudSync.cs" />
+     <Compile Include="Assets\Scripts\UITournamentStandingsManager.cs" />
+     <Compile Include="Assets\Scripts\Spine\IUpdatable.cs" />
+     <Compile Include="Assets\Scripts\RewardData.cs" />
+     <Compile Include="Assets\Scripts\Spine\AtlasAttachmentLoader.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalRunner.cs" />
+     <Compile Include="Assets\Scripts\GameAnalytics.cs" />
+     <Compile Include="Assets\Scripts\BossSuccessRunner.cs" />
+     <Compile Include="Assets\Scripts\FBAppStatus.cs" />
+     <Compile Include="Assets\Scripts\CreatureStateEnum.cs" />
+     <Compile Include="Assets\Scripts\KeyRewardAction.cs" />
+     <Compile Include="Assets\Scripts\MapNodeRunner.cs" />
+     <Compile Include="Assets\Scripts\AchievementsService.cs" />
+     <Compile Include="Assets\Scripts\UnityStandardAssets\ImageEffects\PostEffectsBase.cs" />
+     <Compile Include="Assets\Scripts\TweakableUI.cs" />
+     <Compile Include="Assets\Scripts\HeroCategory.cs" />
+     <Compile Include="Assets\Scripts\BerryRewardAction.cs" />
+     <Compile Include="Assets\Scripts\Spine\PositionMode.cs" />
+     <Compile Include="Assets\Scripts\SalvageRelicsToGems.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\BlankUser.cs" />
+     <Compile Include="Assets\Scripts\notif\LocalNotification.cs" />
+     <Compile Include="Assets\Scripts\ChunkMapParser.cs" />
+     <Compile Include="Assets\Scripts\ARService.cs" />
+     <Compile Include="Assets\Scripts\DrillParser.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\ARBlendShapeLocation.cs" />
+     <Compile Include="Assets\Scripts\Initable.cs" />
+     <Compile Include="Assets\Scripts\TextSlerpHelper.cs" />
+     <Compile Include="Assets\Scripts\LoadingProvider.cs" />
+     <Compile Include="Assets\Scripts\BlockResourceRunnerContext.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyBigDoubleText.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SkeletonUtilityConstraint.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SkeletonRendererInstruction.cs" />
+     <Compile Include="Assets\Scripts\AdResult.cs" />
+     <Compile Include="Assets\Scripts\Big\BigString.cs" />
+     <Compile Include="Assets\Scripts\Unity\Performance\Benchmarking.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalActionFactory.cs" />
+     <Compile Include="Assets\Scripts\CreatureUIController.cs" />
+     <Compile Include="Assets\Scripts\Utils\serializableUnityARPlaneAnchor.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyLocalizedBigDoubleText.cs" />
+     <Compile Include="Assets\Scripts\MainHeroController.cs" />
+     <Compile Include="Assets\Scripts\XPromoAppButton.cs" />
+     <Compile Include="Assets\Scripts\UINotEnoughGemsContentManager.cs" />
+     <Compile Include="Assets\Scripts\TabSwitcher.cs" />
+     <Compile Include="Assets\Scripts\GearSetCollectionRunner.cs" />
+     <Compile Include="Assets\Scripts\TeamBoostRunner.cs" />
+     <Compile Include="Assets\Scripts\BlockPlaceholder.cs" />
+     <Compile Include="Assets\Scripts\CreatureCollectionRunner.cs" />
+     <Compile Include="Assets\Scripts\TweakableLabel.cs" />
+     <Compile Include="Assets\Scripts\CreatureController.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\IO\SVG.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\SplineTracer.cs" />
+     <Compile Include="Assets\Scripts\ChunkMapConfig.cs" />
+     <Compile Include="Assets\Scripts\PropertyBool.cs" />
+     <Compile Include="Assets\Scripts\Spine\Animation.cs" />
+     <Compile Include="Assets\Scripts\GoldChestRewardAction.cs" />
+     <Compile Include="Assets\Scripts\Spine\IkConstraint.cs" />
+     <Compile Include="Assets\Scripts\UIPropertySetToggleOnEnable.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\SpineAttributeBase.cs" />
+     <Compile Include="Assets\Scripts\SwipeTrail.cs" />
+     <Compile Include="Assets\Scripts\CombineMesh.cs" />
+     <Compile Include="Assets\Scripts\TournamentRunStruct.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\Primitives\SplinePrimitive.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\WaitForSpineEvent.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\CustomRotationModule.cs" />
+     <Compile Include="Assets\Scripts\AdRunner.cs" />
+     <Compile Include="Assets\Scripts\UnityARCameraManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalRewards.cs" />
+     <Compile Include="Assets\Scripts\AdMobProvider.cs" />
+     <Compile Include="Assets\Scripts\UIPrestigeBagContentManager.cs" />
+     <Compile Include="Assets\Scripts\GamblingRunner.cs" />
+     <Compile Include="Assets\Scripts\ARPlaneAnchor.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\Spline.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\ISkeletonComponent.cs" />
+     <Compile Include="Assets\Scripts\TSVExtracting.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\ARTrackingQuality.cs" />
+     <Compile Include="Assets\Scripts\UIGamblingRewardManager.cs" />
+     <Compile Include="Assets\Scripts\MultiplyCoinRewardAction.cs" />
+     <Compile Include="Assets\Scripts\SharpJson\JsonDecoder.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\SplineAction.cs" />
+     <Compile Include="Assets\Scripts\UIStartAdventure.cs" />
+     <Compile Include="Assets\Scripts\GoldFingerRunner.cs" />
+     <Compile Include="Assets\Scripts\AdWatched.cs" />
+     <Compile Include="Assets\Scripts\GoldBoosterEnum.cs" />
+     <Compile Include="Assets\Scripts\UILoadScene.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyTexture.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\ARErrorCode.cs" />
+     <Compile Include="Assets\Scripts\TntRunner.cs" />
+     <Compile Include="Assets\Scripts\UIBossRewardManager.cs" />
+     <Compile Include="Assets\Scripts\AdColonyCacher.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyLocalizedFloatText.cs" />
+     <Compile Include="Assets\Scripts\UITutorialSetActive.cs" />
+     <Compile Include="Assets\Scripts\RankConfig.cs" />
+     <Compile Include="Assets\Scripts\UIMapNodeProfileParent.cs" />
+     <Compile Include="Assets\Scripts\BoosterCollectionRunner.cs" />
+     <Compile Include="Assets\Scripts\PrefabPlaceholder.cs" />
+     <Compile Include="Assets\Scripts\PlayFabCommand.cs" />
+     <Compile Include="Assets\Scripts\CreatureBlockFinder.cs" />
+     <Compile Include="Assets\Scripts\AUDIOEVENTACTION.cs" />
+     <Compile Include="Assets\Scripts\HeroEvolveRunnerContext.cs" />
+     <Compile Include="Assets\Scripts\Unity\Performance\DefaultDataSource.cs" />
+     <Compile Include="Assets\Scripts\RankEnum.cs" />
+     <Compile Include="Assets\Scripts\Spine\Pool`1 where T.cs" />
+     <Compile Include="Assets\Scripts\UILoopingWater.cs" />
+     <Compile Include="Assets\Scripts\DrillRunner.cs" />
+     <Compile Include="Assets\Scripts\Spine\Polygon.cs" />
+     <Compile Include="Assets\Scripts\PerkRunner.cs" />
+     <Compile Include="Assets\Scripts\JSONObject.cs" />
+     <Compile Include="Assets\Scripts\ARKitWorldTrackingSessionConfiguration.cs" />
+     <Compile Include="Assets\Scripts\Spine\RegionAttachment.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\UnityRemoteVideo.cs" />
+     <Compile Include="Assets\Scripts\Utils\serializableUnityARLightData.cs" />
+     <Compile Include="Assets\Scripts\AudioObjectPositioning.cs" />
+     <Compile Include="Assets\Scripts\HeroTeamRunner.cs" />
+     <Compile Include="Assets\Scripts\SingleNetworkCacher.cs" />
+     <Compile Include="Assets\Scripts\SlerpParticle.cs" />
+     <Compile Include="Assets\Scripts\PlayerDataLoader.cs" />
+     <Compile Include="Assets\Scripts\MessageSigner.cs" />
+     <Compile Include="Assets\Scripts\TweakableTriggerUI.cs" />
+     <Compile Include="Assets\Scripts\MyFacebookData.cs" />
+     <Compile Include="Assets\Scripts\TimeSyncStatus.cs" />
+     <Compile Include="Assets\Scripts\PropertyLong.cs" />
+     <Compile Include="Assets\Scripts\RewardEnum.cs" />
+     <Compile Include="Assets\Scripts\InGameProfiler.cs" />
+     <Compile Include="Assets\Scripts\BlockSwipeRunner.cs" />
+     <Compile Include="Assets\Scripts\PlayFabException.cs" />
+     <Compile Include="Assets\Scripts\UILeaderboardUpdate.cs" />
+     <Compile Include="Assets\Scripts\FacebookEvent.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\DMath.cs" />
+     <Compile Include="Assets\Scripts\AbstractEmptyAdProvider.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\Modules\SkeletonUtilityKinematicShadow.cs" />
+     <Compile Include="Assets\Scripts\IAPItemRunner.cs" />
+     <Compile Include="Assets\Scripts\GiftParser.cs" />
+     <Compile Include="Assets\Scripts\GearBoostRunner.cs" />
+     <Compile Include="Assets\Scripts\UIGearChestCollector.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\Primitives\Star.cs" />
+     <Compile Include="Assets\Scripts\SettingsRunner.cs" />
+     <Compile Include="Assets\Scripts\SkillConfig.cs" />
+     <Compile Include="Assets\Scripts\TournamentTierConfig.cs" />
+     <Compile Include="Assets\Scripts\UnityEngine\XR\iOS\ARPlaneAnchorGameObject.cs" />
+     <Compile Include="Assets\Scripts\InstallContextsOnStart.cs" />
+     <Compile Include="Assets\Scripts\CumulativeBonusRunner.cs" />
+     <Compile Include="Assets\Scripts\UIGearProfileParent3dNoParticles.cs" />
+     <Compile Include="Assets\Scripts\BlockStepRunner.cs" />
+     <Compile Include="Assets\Scripts\ARAnchor.cs" />
+     <Compile Include="Assets\Scripts\TutorialGoalCollectionRunner.cs" />
+     <Compile Include="Assets\Scripts\UINamingManager.cs" />
+     <Compile Include="Assets\Scripts\UIChestPanel.cs" />
+     <Compile Include="Assets\Scripts\UIToggleSpriteSwap.cs" />
+     <Compile Include="Assets\Scripts\ProjectileController.cs" />
+     <Compile Include="Assets\Scripts\SessionService.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\SurfaceGenerator.cs" />
+     <Compile Include="Assets\Scripts\ARCamera.cs" />
+     <Compile Include="Assets\Scripts\Unity\Performance\ValueBinBuilder.cs" />
+     <Compile Include="Assets\Scripts\UnityARUserAnchorData.cs" />
+     <Compile Include="Assets\Scripts\HighDetailSetActive.cs" />
+     <Compile Include="Assets\Scripts\UITournamentFlagParent.cs" />
+     <Compile Include="Assets\Scripts\SharpJson\Lexer.cs" />
+     <Compile Include="Assets\Scripts\Spine\ScaleTimeline.cs" />
+     <Compile Include="Assets\Scripts\BlockAlignment.cs" />
+     <Compile Include="Assets\Scripts\Spine\PathConstraintPositionTimeline.cs" />
+     <Compile Include="Assets\Scripts\BlockSize.cs" />
+     <Compile Include="Assets\Scripts\GearCollectionRunner.cs" />
+     <Compile Include="Assets\Scripts\TweakableBoolUI.cs" />
+     <Compile Include="Assets\Scripts\SubmeshInstruction.cs" />
+     <Compile Include="Assets\Scripts\GlobalAnalyticsParameters.cs" />
+     <Compile Include="Assets\Scripts\RewardAction.cs" />
+     <Compile Include="Assets\Scripts\IAPNotCompleted.cs" />
+     <Compile Include="Assets\Scripts\UIPropertyText.cs" />
+     <Compile Include="Assets\Scripts\GearParser.cs" />
+     <Compile Include="Assets\Scripts\MainSaver.cs" />
+     <Compile Include="Assets\Scripts\UITournamentTrophyParent.cs" />
+     <Compile Include="Assets\Scripts\XPromoFBButton.cs" />
+     <Compile Include="Assets\Scripts\Unity\AutoTune\SegmentConfig.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\BoundingBoxFollower.cs" />
+     <Compile Include="Assets\Scripts\PlayerGoalActionSkip.cs" />
+     <Compile Include="Assets\Scripts\ARRect.cs" />
+     <Compile Include="Assets\Scripts\ARFrame.cs" />
+     <Compile Include="Assets\Scripts\PropertyBigDouble.cs" />
+     <Compile Include="Assets\Scripts\Unity\Performance\IProfilerControl.cs" />
+     <Compile Include="Assets\Scripts\Dreamteck\Splines\SplineProjector.cs" />
+     <Compile Include="Assets\Scripts\Spine\Unity\AtlasAsset.cs" />
+     <Compile Include="Assets\Scripts\AnalyticsService.cs" />
+     <Compile Include="Assets\Scripts\TextTyper.cs" />
+     <Compile Include="Assets\Scripts\GearRunner.cs" />
+     <Compile Include="Assets\Scripts\UIMapWorldNumberManager.cs" />
+     <Compile Include="Assets\Scripts\AppsFlyerService.cs" />
+     <Compile Include="Assets\Scripts\PrefabOnEnable.cs" />
+     <Compile Include="Assets\Scripts\Spine\DeformTimeline.cs" />
+     <Compile Include="Assets\Scripts\TweakableTrigger.cs" />
+     <Compile Include="Assets\Scripts\SceneLoadHelper.cs" />
+     <Compile Include="Assets\Scripts\BlastWave.cs" />
+     <Compile Include="Assets\Scripts\BonusMultParser.cs" />
+     <Compile Include="Assets\Scripts\SafeAreaSpecificBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Spine\AnimationStateData.cs" />
+     <Compile Include="Assets\AppsFlyer\AppsFlyeriOS.cs" />
+     <Compile Include="Assets\AppsFlyer\IAppsFlyerValidateReceipt.cs" />
+     <Compile Include="Assets\AppsFlyer\IAppsFlyerUserInvite.cs" />
+     <Compile Include="Assets\AppsFlyer\AFInAppEvents.cs" />
+     <Compile Include="Assets\AppsFlyer\AppsFlyerAndroid.cs" />
+     <Compile Include="Assets\AppsFlyer\AppsFlyer.cs" />
+     <Compile Include="Assets\AppsFlyer\IAppsFlyerConversionData.cs" />
+     <Compile Include="Assets\AppsFlyer\AppsFlyerObjectScript.cs" />
+     <Compile Include="Assets\AppsFlyer\AFMiniJSON.cs" />
+     <Compile Include="Assets\AdColony\Scripts\Common\AdColonyEventTracker.cs" />
+     <Compile Include="Assets\AdColony\Scripts\Android\AdColonyAndroidEventTracker.cs" />
+     <Compile Include="Assets\AdColony\Scripts\Android\AdColonyAndroid.cs" />
+     <Compile Include="Assets\AdColony\Scripts\Common\AdColonyInterstitialAd.cs" />
+     <Compile Include="Assets\AdColony\Scripts\Common\AdColonyUtils.cs" />
+     <Compile Include="Assets\AdColony\Scripts\Common\AdColonyTypes.cs" />
+     <Compile Include="Assets\AdColony\Scripts\Common\AdColonyZone.cs" />
+     <Compile Include="Assets\AdColony\Scripts\Common\AdColonyAdView.cs" />
+     <Compile Include="Assets\AdColony\Scripts\Common\AdColonyConstants.cs" />
+     <Compile Include="Assets\AdColony\Scripts\Common\AdColonyUserMetadata.cs" />
+     <Compile Include="Assets\AdColony\Scripts\iOS\AdColonyIOS.cs" />
+     <Compile Include="Assets\AdColony\Scripts\AdColony.cs" />
+     <Compile Include="Assets\AdColony\Scripts\iOS\AdColonyIOSEventTracker.cs" />
+     <Compile Include="Assets\AdColony\Scripts\Common\AdColonyOptions.cs" />
+     <Compile Include="Assets\AudienceNetwork\Scenes\Interstitial\InterstitialAdScene.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\ExtraHints.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\AdSettings.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\SdkVersion.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\AdView.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\RewardedVideoAd.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\AdHandler.cs" />
+     <Compile Include="Assets\AudienceNetwork\Scenes\Settings\SettingsScene.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\InterstitialAd.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\AdUtility.cs" />
+     <Compile Include="Assets\AudienceNetwork\Scenes\Banner\AdViewScene.cs" />
+     <Compile Include="Assets\AudienceNetwork\Scenes\RewardedVideo\RewardedVideoAdScene.cs" />
+     <Compile Include="Assets\AudienceNetwork\Library\AudienceNetworkAds.cs" />
+     <Compile Include="Assets\AudienceNetwork\Scenes\BaseScene.cs" />
+     <Compile Include="Assets\StompyRobot\SROptions\SROptions.Attributes.cs" />
+     <Compile Include="Assets\StompyRobot\SROptions\SROptions.cs" />
+     <Compile Include="Assets\StompyRobot\SROptions\SROptions.Test.cs" />
+     <None Include="Assets\Resources\config\chunkmaps\chunk_map_0.txt" />
+     <None Include="Assets\Resources\config\gambling.txt" />
+     <None Include="Assets\Resources\config\drills.txt" />
+     <None Include="Assets\Resources\config\biomes.txt" />
+     <None Include="Assets\FacebookSDK\link.xml" />
+     <None Include="Assets\Resources\config\crafting.txt" />
+     <None Include="Assets\Resources\config\xpromo.txt" />
+     <None Include="Assets\Resources\config\texts.txt" />
+     <None Include="Assets\Shaders\FP_DiffuseLit.shader" />
+     <None Include="Assets\Shaders\FP_TransparentUnlitAO.shader" />
+     <None Include="Assets\Resources\config\ranks.txt" />
+     <None Include="Assets\Texts\DrJelly.txt" />
+     <None Include="Assets\Resources\config\ads\unity_zones_ios.txt" />
+     <None Include="Assets\Resources\config\chunkmaps\chunk_map_4.txt" />
+     <None Include="Assets\Resources\config\ads\facebook_zones_android.txt" />
+     <None Include="Assets\Resources\config\tutorial_goals.txt" />
+     <None Include="Assets\Shaders\FP_DiffuseLitVegetationAmplitude.shader" />
+     <None Include="Assets\Resources\config\goal_rewards.txt" />
+     <None Include="Assets\Shaders\FP_TransparentUnlitScroll.shader" />
+     <None Include="Assets\Resources\config\chunkmaps\chunk_map_1.txt" />
+     <None Include="Assets\Shaders\FP_TransparentUnlitScrollFast.shader" />
+     <None Include="Assets\Resources\config\boss_chunk_generating.txt" />
+     <None Include="Assets\Resources\config\gear_unlocks.txt" />
+     <None Include="Assets\Resources\config\tournaments.txt" />
+     <None Include="Assets\Shaders\FP_DiffuseUnlitAO.shader" />
+     <None Include="Assets\Texts\CompanionsAir.txt" />
+     <None Include="Assets\Shaders\FP_DiffuseLitTree.shader" />
+     <None Include="Assets\Resources\config\player_goals.txt" />
+     <None Include="Assets\Shaders\FP_TransparentShadow.shader" />
+     <None Include="Assets\Resources\config\boosters.txt" />
+     <None Include="Assets\Shaders\FP_TransparentUnlitJellyAO.shader" />
+     <None Include="Assets\Resources\config\slots.txt" />
+     <None Include="Assets\Texts\CoinBooster.txt" />
+     <None Include="Assets\Shaders\Spine_SkeletonGraphic (Premultiply Alpha).shader" />
+     <None Include="Assets\Resources\config\skills.txt" />
+     <None Include="Assets\Resources\config\hero_mini_milestones.txt" />
+     <None Include="Assets\Resources\config\crafting_materials.txt" />
+     <None Include="Assets\Resources\config\gpuperf.txt" />
+     <None Include="Assets\Resources\config\bundle_tiers.txt" />
+     <None Include="Assets\Resources\config\companion_mini_milestones.txt" />
+     <None Include="Assets\Texts\CoinBooster.atlas.txt" />
+     <None Include="Assets\Resources\config\ads\frequencies.txt" />
+     <None Include="Assets\Resources\config\chunkmaps\chunk_map_2.txt" />
+     <None Include="Assets\Shaders\FP_UnlitJellyFloorLocalAO.shader" />
+     <None Include="Assets\Resources\config\gears.txt" />
+     <None Include="Assets\Texts\GoatRiding.txt" />
+     <None Include="Assets\Resources\config\ads\network_floors.txt" />
+     <None Include="Assets\Shaders\FP_DiffuseUnlitVegetationAmplitude.shader" />
+     <None Include="Assets\Shaders\Unlit_ARCameraShader.shader" />
+     <None Include="Assets\Resources\config\gifts.txt" />
+     <None Include="Assets\Shaders\FP_TransparentUnlitTornado.shader" />
+     <None Include="Assets\Resources\config\gear_set.txt" />
+     <None Include="Assets\Texts\Characters.atlas.txt" />
+     <None Include="Assets\Shaders\FP_UnlitJellyFloorAO.shader" />
+     <None Include="Assets\Resources\config\heros.txt" />
+     <None Include="Assets\Shaders\UI_Default_OverlayNoZTest.shader" />
+     <None Include="Assets\Shaders\Spine_Skeleton.shader" />
+     <None Include="Assets\Shaders\FP_DiffuseUnlit.shader" />
+     <None Include="Assets\Resources\config\perk_milestones.txt" />
+     <None Include="Assets\Resources\BillingMode.txt" />
+     <None Include="Assets\Texts\GoatRiding.atlas.txt" />
+     <None Include="Assets\Texts\CompanionsGround.txt" />
+     <None Include="Assets\Resources\config\ads\unity_zones_android.txt" />
+     <None Include="Assets\Resources\config\chunk_generating.txt" />
+     <None Include="Assets\Resources\config\ads\admob_zones_ios.txt" />
+     <None Include="Assets\Resources\config\chests.txt" />
+     <None Include="Assets\Texts\Skippy.txt" />
+     <None Include="Assets\Shaders\FP_UI-GrayScale.shader" />
+     <None Include="Assets\Resources\config\tiers.txt" />
+     <None Include="Assets\Resources\config\iaps.txt" />
+     <None Include="Assets\Shaders\FP_TransparentUnlit.shader" />
+     <None Include="Assets\Resources\config\tournamentTiers.txt" />
+     <None Include="Assets\Resources\config\ads\admob_zones_android.txt" />
+     <None Include="Assets\Resources\config\ads\facebook_zones_ios.txt" />
+     <None Include="Assets\Resources\config\chunkmaps\chunk_map_3.txt" />
+     <None Include="Assets\Texts\Hero.txt" />
+     <None Include="Assets\Resources\config\textsOverwrite.txt" />
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>E:/IdleCraftingEmpire/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>E:/IdleCraftingEmpire/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>E:/IdleCraftingEmpire/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/IdleCraftingEmpire/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>E:/IdleCraftingEmpire/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>E:/IdleCraftingEmpire/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VisualStudio.Editor">
+ <HintPath>E:/IdleCraftingEmpire/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>E:/IdleCraftingEmpire/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>E:/IdleCraftingEmpire/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>E:/IdleCraftingEmpire/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>E:/IdleCraftingEmpire/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Monetization">
+ <HintPath>E:/IdleCraftingEmpire/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>E:/IdleCraftingEmpire/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>E:/IdleCraftingEmpire/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AndroidJNIModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DSPGraphModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputLegacyModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubsystemsModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsNativeModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/IdleCraftingEmpire/Assets/Plugins/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>E:/IdleCraftingEmpire/Assets/Plugins/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>E:/IdleCraftingEmpire/Assets/Plugins/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>E:/IdleCraftingEmpire/Assets/Plugins/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>E:/IdleCraftingEmpire/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>E:/IdleCraftingEmpire/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="AppleCore">
+ <HintPath>E:/IdleCraftingEmpire/Assets/Plugins/UnityPurchasing/Bin/Apple/AppleCore.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>E:/IdleCraftingEmpire/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Purchasing.Common">
+ <HintPath>E:/IdleCraftingEmpire/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>E:/IdleCraftingEmpire/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="FacebookStore">
+ <HintPath>E:/IdleCraftingEmpire/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>E:/IdleCraftingEmpire/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="AppleMacos">
+ <HintPath>E:/IdleCraftingEmpire/Assets/Plugins/UnityPurchasing/Bin/Apple/AppleMacos.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity">
+ <HintPath>E:/IdleCraftingEmpire/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="FacebookNamedPipeClient">
+ <HintPath>E:/IdleCraftingEmpire/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Gameroom">
+ <HintPath>E:/IdleCraftingEmpire/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+ </Reference>
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>E:/IdleCraftingEmpire/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.App">
+ <HintPath>E:/IdleCraftingEmpire/Library/PackageCache/com.google.firebase.app@6.16.1/Firebase/Plugins/Firebase.App.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Analytics">
+ <HintPath>E:/IdleCraftingEmpire/Library/PackageCache/com.google.firebase.analytics@6.16.1/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.Platform">
+ <HintPath>E:/IdleCraftingEmpire/Library/PackageCache/com.google.firebase.app@6.16.1/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Tasks">
+ <HintPath>E:/IdleCraftingEmpire/Library/PackageCache/com.google.firebase.app@6.16.1/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.MiniJson">
+ <HintPath>E:/IdleCraftingEmpire/Library/PackageCache/com.google.firebase.app@6.16.1/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Compat">
+ <HintPath>E:/IdleCraftingEmpire/Library/PackageCache/com.google.firebase.app@6.16.1/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.TaskExtension">
+ <HintPath>E:/IdleCraftingEmpire/Library/PackageCache/com.google.firebase.app@6.16.1/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+ </Reference>
+ <Reference Include="Firebase.RemoteConfig">
+ <HintPath>E:/IdleCraftingEmpire/Library/PackageCache/com.google.firebase.remote-config@6.16.1/Firebase/Plugins/Firebase.RemoteConfig.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CSharp">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Annotations">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http.Rtc">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.ILGeneration">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.Lightweight">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Duplex">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Http">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.NetTcp">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Primitives">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Security">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>C:/UnityInstall/2020.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{377fc117-88b2-490a-bbe6-31f045dc7b5c}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="GoogleMobileAds.csproj">
+      <Project>{c0b7c322-927f-e286-78fd-b30e559bbc2b}</Project>
+      <Name>GoogleMobileAds</Name>
+    </ProjectReference>
+    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
+      <Project>{3a15a4da-85a7-a625-0046-afde0bd8161b}</Project>
+      <Name>GoogleMobileAds.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="StompyRobot.SRDebugger.csproj">
+      <Project>{69ae9edc-93ce-cdeb-38fa-f509b39676ee}</Project>
+      <Name>StompyRobot.SRDebugger</Name>
+    </ProjectReference>
+    <ProjectReference Include="StompyRobot.SRDebugger.Editor.csproj">
+      <Project>{f0539f9b-a2a8-0e7f-9e9c-be595bb8a261}</Project>
+      <Name>StompyRobot.SRDebugger.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="StompyRobot.SRF.Editor.csproj">
+      <Project>{a2910739-d657-0060-2ee8-66fae3c38e7e}</Project>
+      <Name>StompyRobot.SRF.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="StompyRobot.SRF.csproj">
+      <Project>{76d7efad-47d8-e44f-7fc4-f754c5bcd9b5}</Project>
+      <Name>StompyRobot.SRF</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

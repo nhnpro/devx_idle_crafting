@@ -1,0 +1,90 @@
+BABECAGE22SJGt7zzRBGPGTH3xQELVQgytI+OpUxHv825F65GO8=
+Gpu	Quality
+Adreno (TM) 200	Low
+Gallium 0.4 on llvmpipe (LLVM 3.7, 128 bits)	Low
+OpenGL ES Translator (AMD Radeon HD 8400 / R3 Series)	Low
+GC1000+MP core	Low
+Vivante GC4000	Low
+Adreno (TM) 205	Low
+Adreno (TM) 203	Low
+PowerVR SGX 540	Low
+Vivante GC1000	Low
+GC1000 core	Low
+Vivante GC2000	Low
+Immersion.16	Low
+NVIDIA Tegra 3	Low
+PowerVR SGX 531	Low
+Mali-400 MP2	Low
+VideoCore IV HW	Low
+Mali-450 MP4	Low
+Adreno (TM) 220	Low
+Adreno (TM) 225	Low
+Adreno (TM) 304	Low
+Adreno (TM) 305	Low
+OpenGL ES Translator (Intel(R) HD Graphics 4000)	Low
+Mali-T604	Low
+Mali-400 MP	Low
+Adreno (TM) 320	Low
+Adreno (TM) 306	Low
+Adreno (TM) 405	Low
+PowerVR SGX 544MP2	Low
+Vivante GC7000UL	Low
+Mali-450 MP	Low
+PowerVR SGX 543	Low
+PowerVR SGX 544MP	Low
+PowerVR Rogue G6110	Low
+powervrg6400	Low
+Mali-T720	Low
+Adreno (TM) 505	Low
+Mali-T820	Low
+Adreno (TM) 420	Low
+PowerVR SGX 554	Low
+Mali-T624	Low
+Mali-T628	Low
+Sapphire 650	Low
+Adreno (TM) 418	Low
+OpenGL ES Translator (GeForce GT 230/PCIe/SSE2)	Low
+PowerVR Rogue G6400	Low
+OpenGL ES Translator (Intel(R) HD Graphics 2500)	Low
+Adreno (TM) 308	Low
+Mali-T860	Low
+Bluestacks	Low
+PowerVR Rogue GE8300	Low
+Adreno (TM) 508	Low
+Adreno (TM) 430	Low
+OpenGL ES (GeForce GT 610/PCIe/SSE2)	Low
+Adreno (TM) 330	Low
+Imagination	Low
+OpenGL ES (Intel(R) HD Graphics 5500)	Low
+PowerVR Rogue G6430	Low
+PowerVR Rogue G6200	Low
+Mesa DRI Intel(R) HD Graphics (Cherrytrail) x86/MMX/SSE2	Low
+OpenGL ES (Intel(R) HD Graphics)	Low
+Mali-T830	High
+Intel(R) HD Graphics for Atom(TM) x5/x7	High
+Mali-T880	High
+NVIDIA Tegra	High
+Adreno (TM) 506	High
+Intel(R) HD Graphics for BayTrail	High
+Mesa DRI Intel(R) Sandybridge Mobile	High
+PowerVR Rogue Hood	High
+Adreno (TM) 530	High
+Mali-T760	High
+Adreno (TM) 510	High
+PowerVR Rogue GX6250	High
+Mali-G71	High
+Mali-T764	High
+Apple A7 GPU	High
+OpenGL ES Translator(GeForce GT 750M / PCIe / SSE2)	High
+Adreno (TM) 540	High
+Mesa DRI Intel(R) HD Graphics 400 (Braswell)	High
+Adreno (TM) 512	High
+Apple A8 GPU	High
+PowerVR Rogue Han	High
+Apple A8X GPU	High
+Apple A10 GPU	High
+Apple A9 GPU	High
+PowerVR Rogue Marlowe	High
+OpenGL ES (GeForce GTX 970/PCIe/SSE2)	High
+Apple A9X GPU	High
+Apple A10X GPU	High

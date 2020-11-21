@@ -1,0 +1,16 @@
+BABECAGENitvW64D0vWtm4Rr8wz1kkKpvcVxrtZEwn/a3DjUlz8=
+AppleID	GoogleID	Type	ProductEnum	RewardType	ExtraReward1	ExtraReward2	SaleEnum
+com.futureplay.minecraft.iap1	0x0x0x0x0	Consumable	iap1	AddToGemsX80			iap6
+com.futureplay.minecraft.iap2	0x0x0x0x1	Consumable	iap2	AddToGemsX500			iap6
+com.futureplay.minecraft.iap3	0x0x0x0x2	Consumable	iap3	AddToGemsX1200			iap6
+com.futureplay.minecraft.iap4	0x0x0x0x3	Consumable	iap4	AddToGemsX2500			iap6
+com.futureplay.minecraft.iap5	0x0x0x0x4	Consumable	iap5	AddToGemsX6500			iap6
+com.futureplay.minecraft.iap6	0x0x0x0x5	Consumable	iap6	AddToGemsX14000			iap6
+com.futureplay.minecraft.bundle1	0x0x0x1x0	BundleConsumable	bundle1	AddBoosterDamageMultiplierX2	AddToGemsX400	AddToCoinsSmallX1	bundle4
+com.futureplay.minecraft.bundle2	0x0x0x1x0	BundleConsumable	bundle2	AddChestGoldX5	AddToGemsX400	AddToCoinsSmallX1	bundle4
+com.futureplay.minecraft.bundle3	0x0x0x1x0	BundleConsumable	bundle3	AddBoosterGoldMultiplierX2	AddToGemsX400	AddToCoinsSmallX1	bundle4
+com.futureplay.minecraft.bundle4	0x0x0x1x0	BundleConsumable	bundle4	AddBoosterGoldMultiplierX2	AddToGemsX1500	AddChestGoldX5	iap5
+com.futureplay.minecraft.bundle5	0x0x0x1x0	BundleConsumable	bundle5	AddToGearLevelX1	AddToGemsX1500	AddChestBronzeX15	iap5
+com.futureplay.minecraft.bundle6	0x0x0x1x0	BundleConsumable	bundle6	AddChestGoldX20	AddToGemsX4000	AddChestSilverX15	iap6
+com.futureplay.minecraft.bundle7	0x0x0x1x0	BundleConsumable	bundle7	AddBoosterDamageMultiplierX2	AddToGemsX4000	AddChestGoldX10	iap6
+com.futureplay.minecraft.bundle8	0x0x0x1x0	BundleConsumable	bundle8	AddToGearLevelX5	AddToGemsX4000	AddChestGoldX15	iap6

@@ -1,0 +1,7 @@
+BABECAGEbImFxY+hKl6te19nex4CCKhHTGMQ5SczXHc+xhoBuu4=
+Skill	Duration (sec)	Cooldown (sec)	HeroLevelReq
+TNT	1	300	15
+AutoMine	30	600	25
+TeamBoost	30	1200	85
+TapBoost	30	1800	170
+Goldfinger	15	3600	260

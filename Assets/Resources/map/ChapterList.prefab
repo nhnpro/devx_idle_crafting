@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1790336996685949155
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790336996685949154}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790336996685949154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790336996685949155}
+  - component: {fileID: 1790336996685949156}
+  m_Layer: 0
+  m_Name: "ChapterList"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790336996685949156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790336996685949154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02eb9c2ba00609ec66713115fe556a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Chapters:
+  - ChapterVariants:
+    - {fileID: 1790336996685949210, guid: 885b36c534a19404cb7e5fecef9e0dd9, type: 2}
+  - ChapterVariants:
+    - {fileID: 1790336996685949229, guid: 48502b14356bb4dd2ada57117c56ab5d, type: 2}
+  - ChapterVariants:
+    - {fileID: 1790336996685949194, guid: 8965ef99809ff4fdb98fbff83855ec42, type: 2}
+  - ChapterVariants:
+    - {fileID: 1790336996685949193, guid: 6765e85958ea0449580e1e8e85717edf, type: 2}
+  - ChapterVariants:
+    - {fileID: 1790336996685949218, guid: 26a8353e3f97f46e29ea1c31cb88087f, type: 2}
+  - ChapterVariants:
+    - {fileID: 1790336996685949208, guid: ab6373ad496604a46b2dc8f5059111be, type: 2}
+  - ChapterVariants:
+    - {fileID: 1790336996685949211, guid: 3cd400a29932241c89f75ad775e6c6d9, type: 2}
+  - ChapterVariants:
+    - {fileID: 1790336996685949211, guid: 3cd400a29932241c89f75ad775e6c6d9, type: 2}
+    - {fileID: 1790336996685949196, guid: 9e8e708bad32e45058170fde384e4db5, type: 2}

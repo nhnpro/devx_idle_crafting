@@ -1,0 +1,7 @@
+BABECAGE5qCd6FzRGDwDR9PW0eSxP1b5emeONrZbiiFKIvbMWw8=
+AdPlacement	DailyCap	CooldownMinutes
+DailyDouble	5	60
+HammerTime	100	0
+KeyChest	100	30
+Drill	100	0
+LevelSkip	5	60

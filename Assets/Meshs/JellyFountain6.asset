@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: "JellyFountain6"
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 18
+    topology: 0
+    firstVertex: 0
+    vertexCount: 12
+    localAABB:
+      m_Center: {x: -0.0621694, y: -10.00909, z: -0.9982062}
+      m_Extent: {x: 0.9378306, y: 10.18362, z: 2.794352}
+  m_Shapes:
+    vertices:
+    shapes:
+    channels:
+    fullWeights:
+  m_MeshCompression: 0
+  m_StreamCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200000002000300040005000600040006000700080009000A0008000A000B00
+  m_Skin: []
+  m_BindPose:
+  m_VertexData:
+    m_CurrentChannels: 139
+    m_VertexCount: 12
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 32
+      format: 0
+      dimension: 4
+    m_DataSize: 576
+    _typelessdata: 467A1F3F27F4A7BD46B972C064D07F3FC387E6BC8D89D2BCE217803F0122983E39F5E03C5AD07F3FBEA8D8BC000080BF552B603F588681BD1BE8E53F64D07F3FC387E6BC8D89D2BCE217803F53AC803B12EAE23CF5DC7F3FBA508EBC000080BF2031383EA98AA1C10000803F64D07F3FC387E6BC8D89D2BC50379D3B2027C03A261FEF3CE7AB7F3F5985293D000080BF2031383EA98AA1C19DD64DC064D07F3FC387E6BC8D89D2BC50379D3B77DF963E8FC8EC3C72C77F3F965BF43C000080BF04DCA83E3313113DE6AB72C060CA523ED1747A3FFE01B1BCFE44E63E7EB48B3E981EFBBE9661FA3D27E35C3F000080BF333C0C3F52149A3D344ED73F0952843ECD3D773FB9C2B0BCCEAFE83EF98D503D3C8D05BF5422223EE19B563F000080BF552B603F588681BD1BE8E53F4ADA603F7D52F43E6302EBBC1C281E3D1842D53C33B351BEDC0CDC3E7820613F000080BF467A1F3F27F4A7BD46B972C0B1F5543F76E20D3F09C4E8BC22281E3D3F60813EB1AF6DBEC0B2C93E07AC633F000080BF000080BF0071243BE65772C09EC2E73CE4D67F3FF981AEBC3A6D7F3FC12B703FDFDD7FBF1361EA3CCB85743C000080BF000080BF04B7323E5D38773F9EC2E73CE4D67F3FF981AEBC3A6D7F3FC711B83E9A2B6FBF687C9A3C3452B6BE000080BF333C0C3F52149A3D344ED73F0952843ECD3D773FB9C2B0BC1FA5FF3E3D0FB73E8EFF60BF7035673E6122D7BE000080BF04DCA83E3313113DE6AB72C060CA523ED1747A3FFE01B1BC1FA5FF3E7CAA6F3FCFF179BFFFB8503EEFB493BD000080BF
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BindPoses:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Colors:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -0.0621694, y: -10.00909, z: -0.9982062}
+    m_Extent: {x: 0.9378306, y: 10.18362, z: 2.794352}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0

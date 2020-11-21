@@ -1,0 +1,20 @@
+public enum IAPProductEnum
+{
+	iap1,
+	iap2,
+	iap3,
+	iap4,
+	iap5,
+	iap6,
+	productAmount,
+	bundle1,
+	bundle2,
+	bundle3,
+	bundle4,
+	bundle5,
+	bundle6,
+	bundle7,
+	bundle8,
+	bundleAmount,
+	bundleNew
+}

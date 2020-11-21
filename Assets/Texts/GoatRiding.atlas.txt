@@ -1,0 +1,258 @@
+
+GoatRiding.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assets/Body
+  rotate: true
+  xy: 364, 162
+  size: 68, 66
+  orig: 68, 66
+  offset: 0, 0
+  index: -1
+Assets/CheekL
+  rotate: true
+  xy: 160, 11
+  size: 43, 30
+  orig: 43, 30
+  offset: 0, 0
+  index: -1
+Assets/CheekR
+  rotate: false
+  xy: 432, 213
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+Assets/EarBack
+  rotate: false
+  xy: 152, 98
+  size: 37, 84
+  orig: 37, 84
+  offset: 0, 0
+  index: -1
+Assets/EarFront
+  rotate: true
+  xy: 2, 14
+  size: 39, 92
+  orig: 39, 92
+  offset: 0, 0
+  index: -1
+Assets/EyeL
+  rotate: true
+  xy: 191, 57
+  size: 65, 76
+  orig: 65, 76
+  offset: 0, 0
+  index: -1
+Assets/EyeR
+  rotate: true
+  xy: 96, 12
+  size: 41, 62
+  orig: 41, 62
+  offset: 0, 0
+  index: -1
+Assets/FaceBase
+  rotate: false
+  xy: 388, 356
+  size: 109, 154
+  orig: 109, 154
+  offset: 0, 0
+  index: -1
+Assets/FaceFront
+  rotate: false
+  xy: 241, 354
+  size: 145, 156
+  orig: 145, 156
+  offset: 0, 0
+  index: -1
+Assets/GrassMouth
+  rotate: true
+  xy: 332, 19
+  size: 55, 48
+  orig: 55, 48
+  offset: 0, 0
+  index: -1
+Assets/Hair
+  rotate: false
+  xy: 276, 158
+  size: 86, 72
+  orig: 86, 72
+  offset: 0, 0
+  index: -1
+Assets/HairDetail1
+  rotate: false
+  xy: 432, 184
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+Assets/HairDetail2
+  rotate: false
+  xy: 358, 77
+  size: 27, 19
+  orig: 27, 19
+  offset: 0, 0
+  index: -1
+Assets/HairMain
+  rotate: true
+  xy: 276, 232
+  size: 120, 109
+  orig: 120, 109
+  offset: 0, 0
+  index: -1
+Assets/Head
+  rotate: false
+  xy: 276, 76
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Assets/HeadBase
+  rotate: false
+  xy: 2, 184
+  size: 166, 159
+  orig: 166, 159
+  offset: 0, 0
+  index: -1
+Assets/HornBack
+  rotate: false
+  xy: 394, 103
+  size: 39, 57
+  orig: 39, 57
+  offset: 0, 0
+  index: -1
+Assets/HornFront
+  rotate: false
+  xy: 192, 6
+  size: 55, 49
+  orig: 55, 49
+  offset: 0, 0
+  index: -1
+Assets/IrisL
+  rotate: false
+  xy: 249, 24
+  size: 17, 31
+  orig: 17, 31
+  offset: 0, 0
+  index: -1
+Assets/IrisR
+  rotate: true
+  xy: 468, 270
+  size: 14, 25
+  orig: 14, 25
+  offset: 0, 0
+  index: -1
+Assets/Lace
+  rotate: false
+  xy: 269, 24
+  size: 61, 50
+  orig: 61, 50
+  offset: 0, 0
+  index: -1
+Assets/Leg1
+  rotate: true
+  xy: 387, 241
+  size: 25, 42
+  orig: 25, 42
+  offset: 0, 0
+  index: -1
+Assets/Leg2
+  rotate: true
+  xy: 468, 286
+  size: 24, 42
+  orig: 24, 42
+  offset: 0, 0
+  index: -1
+Assets/LegMain1
+  rotate: false
+  xy: 358, 98
+  size: 34, 58
+  orig: 34, 58
+  offset: 0, 0
+  index: -1
+Assets/Nose
+  rotate: false
+  xy: 432, 165
+  size: 19, 17
+  orig: 19, 17
+  offset: 0, 0
+  index: -1
+Assets/SheepBody
+  rotate: true
+  xy: 170, 201
+  size: 142, 104
+  orig: 142, 104
+  offset: 0, 0
+  index: -1
+Assets/SheepHead
+  rotate: true
+  xy: 191, 124
+  size: 75, 83
+  orig: 75, 83
+  offset: 0, 0
+  index: -1
+Assets/SheepHorn1
+  rotate: true
+  xy: 445, 312
+  size: 42, 50
+  orig: 42, 50
+  offset: 0, 0
+  index: -1
+Assets/SheepHorn2
+  rotate: false
+  xy: 152, 56
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: -1
+Assets/SheepNose
+  rotate: true
+  xy: 427, 270
+  size: 36, 39
+  orig: 36, 39
+  offset: 0, 0
+  index: -1
+Assets/SheepTail
+  rotate: false
+  xy: 431, 242
+  size: 36, 26
+  orig: 36, 26
+  offset: 0, 0
+  index: -1
+Assets/Stick
+  rotate: false
+  xy: 2, 55
+  size: 148, 127
+  orig: 148, 127
+  offset: 0, 0
+  index: -1
+Assets/StickCandy
+  rotate: false
+  xy: 387, 268
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+Assets/StickLine
+  rotate: false
+  xy: 241, 346
+  size: 4, 6
+  orig: 4, 6
+  offset: 0, 0
+  index: -1
+Assets/Tail
+  rotate: true
+  xy: 388, 308
+  size: 46, 55
+  orig: 46, 55
+  offset: 0, 0
+  index: -1
+Assets/Torso
+  rotate: false
+  xy: 2, 345
+  size: 237, 165
+  orig: 237, 165
+  offset: 0, 0
+  index: -1

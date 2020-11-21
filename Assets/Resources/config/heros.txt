@@ -1,0 +1,23 @@
+BABECAGEr6sZKaRiW1teg8zWl7OuXlMh9++2hbZU5J7JCUb3Y5g=
+HeroIndex	Category	UnlockIndex	InitialCost	CostMultiplier	MilestoneMultiplier	DamageMultiplier	InitialDamage
+0	GroundMelee	0	200	1.2	2	1.10	1
+1	GroundMelee	5	800	1.2	2	1.10	70
+2	AirMelee	20	4000	1.2	2	1.10	351
+3	GroundMelee	40	127358	1.2	2	1.10	8491
+4	GroundMelee	80	8.46E+09	1.2	2	1.10	1.79E+08
+5	GroundMelee	120	4.03E+14	1.2	2	1.10	3.23E+12
+6	GroundMelee	160	2.34396E+19	1.2	2	1.10	6.45E+16
+7	GroundMelee	200	1.31848E+24	1.2	2	1.10	1.16E+21
+8	AirMelee	240	6.67479E+28	1.2	2	1.10	2.21E+25
+9	GroundMelee	280	3.37911E+33	1.2	2	1.10	4.23E+29
+10	GroundMelee	320	1.71067E+38	1.2	2	1.10	7.37E+33
+11	GroundMelee	360	8.66029E+42	1.2	2	1.10	1.42E+38
+12	GroundMelee	400	4.38427E+47	1.2	2	1.10	2.47E+42
+13	GroundMelee	440	2.21954E+52	1.2	2	1.10	4.72E+46
+14	GroundMelee	520	5.68843E+61	1.2	2	1.10	1.58E+55
+15	GroundMelee	600	1.45788E+71	1.2	2	1.10	2.86E+63
+16	GroundMelee	680	3.73639E+80	1.2	2	1.10	9.55E+71
+17	GroundMelee	760	9.57597E+89	1.2	2	1.10	3.21E+80
+18	GroundMelee	840	2.45422E+99	1.2	2	1.10	1.07E+89
+19	GroundMelee	920	6.28989E+108	1.2	2	1.10	3.60E+97
+20	GroundMelee	1000	1.61203E+118	1.2	2	1.10	1.20E+106

@@ -1,0 +1,23 @@
+BABECAGEQpAK2ngo0IuGY++gWsY9GTn6CSJ1n6W0a2dAWvfVT3c=
+Item	Jelly	Material1	Material2	Material3
+0	0	Grass_3	Wood_0	
+1	7	Dirt_4	Stone_2	
+2	17	Wood_7	Metal_4	
+3	0	Grass_3	Dirt_2	
+4	13	Stone_4	Metal_2	
+5	28	Wood_11	Metal_10	
+6	21	Wood_8	Stone_7	
+7	25	Grass_11	Metal_8	
+8	34	Dirt_14	Stone_13	
+9	30	Dirt_12	Metal_11	
+10	32	Grass_13	Wood_13	
+11	39	Grass_16	Stone_15	
+12	36	Stone_14	Metal_13	
+13	37	Dirt_15	Wood_15	
+14	40	Grass_16	Dirt_16	
+15	30	Grass_13		
+16	30	Dirt_13		
+17	30	Wood_12		
+18	30	Stone_11		
+19	30	Metal_11		
+20	40				

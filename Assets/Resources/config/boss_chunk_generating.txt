@@ -1,0 +1,8 @@
+BABECAGE5x3/EbxlKJcTRuRyQ4F4zT2/hbywYMj1BK3xauKTy4A=
+Chunk	MaxBlocks	4x4Min	4x4Max	2x2Min	2x2Max	Grass	Dirt	Wood	Stone	Metal	Gold	DiamondMin	DiamondMax	DiamondChance	TNTMin	TNTMax	TNTChance
+0	164	1	1	3	7	40	0	0	0	0	10	0	1	0.05	1	1	0.5
+30	164	1	1	3	7	40	20	0	0	0	10	0	1	0.05	1	1	0.5
+60	164	1	1	3	7	40	20	10	0	0	10	0	1	0.05	1	1	0.5
+90	264	1	1	8	12	40	20	10	10	0	20	1	1	0.05	1	1	0.5
+120	264	1	1	8	12	40	20	10	10	5	20	1	1	0.05	1	1	0.5
+150	364	1	1	12	18	40	20	10	10	8	30	1	1	0.05	1	1	0.5

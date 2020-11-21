@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 062ca6829d204302ba6d46261b82acbb
+timeCreated: 1605952648
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "FredokaOne"
+  fontNames:
+  - Fredoka One
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

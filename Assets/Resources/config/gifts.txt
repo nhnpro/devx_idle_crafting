@@ -1,0 +1,13 @@
+BABECAGEAA4qRMm9pDCJIyAvYyy/z5pW9y4TjYTQgCzprFIWsV0=
+Gift	Weight
+AddToGemsX1	20
+AddToGemsX3	5
+AddToRelicsX1	1
+AddToKeysX1	5
+MultiplyCoinsX1.05	80
+MultiplyCoinsX1.08	50
+MultiplyCoinsX1.1	30
+AddChestBronzeX1	20
+AddChestSilverX1	5
+AddChestGoldX1	1
+AddToBerriesX1	85

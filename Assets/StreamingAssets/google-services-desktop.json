@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1010197256025",
+    "firebase_url": "https://idlecraft-d18fe.firebaseio.com",
+    "project_id": "idlecraft-d18fe",
+    "storage_bucket": "idlecraft-d18fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010197256025:android:d06e9f3a7ce77ab2371e48",
+        "android_client_info": {
+          "package_name": "com.indie.crafting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010197256025-qc92bfisk0ab9le3ceh3knr3a6gjqt7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNtLtGe22SYX981XFkh76dR4v3Ff1IAMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010197256025-qc92bfisk0ab9le3ceh3knr3a6gjqt7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
