@@ -60,6 +60,7 @@ namespace notif
 
 		public static int SendNotification(int id, long delayMs, string title, string message, Color32 bgColor, bool sound = true, bool vibrate = true, bool lights = true, string bigIcon = "", string soundName = null, string channel = "default", params Action[] actions)
 		{
+			return id;
 			new AndroidJavaClass(fullClassName)?.CallStatic("SetNotification", id, delayMs, title, message, message, sound ? 1 : 0, soundName, vibrate ? 1 : 0, lights ? 1 : 0, bigIcon, "notify_icon_small", ToInt(bgColor), bundleIdentifier, channel, PopulateActions(actions));
 			return id;
 		}

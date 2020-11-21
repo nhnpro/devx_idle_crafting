@@ -33,11 +33,11 @@ public class FacebookProvider : LoadingProvider, IDisposable, AdProvider
 	{
 		Zone = zone;
 		Loading = new ReactiveProperty<bool>(initialValue: false);
-		_loadingEvents.ObserveOnMainThread().Subscribe(delegate(bool success)
+		/*_loadingEvents.ObserveOnMainThread().Subscribe(delegate(bool success)
 		{
 			adReady.Value = success;
 			Loading.Value = false;
-		}).AddTo(_disposable);
+		}).AddTo(_disposable);*/
 	}
 
 	public void Init()
@@ -58,6 +58,7 @@ public class FacebookProvider : LoadingProvider, IDisposable, AdProvider
 
 	private void RequestNewAd()
 	{
+		return;
 		if (ad != null)
 		{
 			ad.Dispose();
@@ -79,6 +80,7 @@ public class FacebookProvider : LoadingProvider, IDisposable, AdProvider
 
 	public UniRx.IObservable<AdService.V2PShowResult> Show()
 	{
+		return Observable.Return(AdService.V2PShowResult.Failed);
 		if (adReady.Value)
 		{
 			return Observable.Create(delegate(UniRx.IObserver<AdService.V2PShowResult> subscriber)
